@@ -21,7 +21,7 @@ import h1 from '../Assets/men/Hoodie/h1.jpeg'
 import shervani from "../Assets/men/Sherwani/1.jpeg";
 // Women Collection
 import l1 from '../Assets/women/Lehenga/1.jpeg'
-import op5 from '../Assets/women/One-Piece/5.jpeg'
+import op5 from '../Assets/women/One_piece/5.jpeg'
 import ss1 from '../Assets/women/Salwar_suit/1.jpeg'
 import g1 from '../Assets/women/Gown/1.jpeg'
 import s1 from '../Assets/women/Suit/1.jpeg'
