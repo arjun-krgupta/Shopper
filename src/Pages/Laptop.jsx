@@ -42,25 +42,18 @@ function Laptop(props) {
          </div>
          {/* Hp */}
          <hr className='w-full mt-1' />
-        <div className="flex justify-between items-center px-4">
+        <div className="flex justify-between items-center px-32">
             <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/hp')}} >Hp Laptops</h4>
             <Link to='/hp' className='text-green-600 hover:underline hover:text-green-600'>View all</Link>
             </div>
             <hr className='w-full' />
-            <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-3 px-3">
+            <div className="flex lg:justify-center gap-5 overflow-x-scroll webkit w-full py-2 px-3">
             {hp_product.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 px-3 hover:scale-[1.01] hover:transition[0.3s]" key={i}>
-                <img src={val.image} alt="" className='max-w-full h-auto' />
-               <div className="flex flex-col items-center">
-                <div className="text-sm font-bold">{val.name}</div>
-                <div className="text-sm">({val.Detail})</div>
-               </div>
-                <div className="flex gap-2">
-                    <div className="text-sm px-1 bg-green-700 text-white">{val.rating}</div>
-                    <div className="text-xs">({val.review})</div>
-                </div>
+                <img src={val.image} alt="" className='max-w-full h-auto object-contain' />
+                <div className="text-sm font-bold text-center">{val.alt}</div>
                 <div className="flex gap-4">
-                    <div className="text-sm">{val.new_price}</div>
+                    <div className="text-sm font-bold">{val.new_price}</div>
                     <div className="text-sm line-through text-gray-600">{val.old_price}</div>
                 </div>
               </div>
@@ -68,25 +61,18 @@ function Laptop(props) {
           </div>
           {/* Dell */}
           <hr className='w-full mt-1' />
-        <div className="flex justify-between items-center px-4">
+        <div className="flex justify-between items-center px-32">
             <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/dell')}} >Dell Laptops</h4>
             <Link to='/dell' className='text-green-600 hover:underline hover:text-green-600'>View all</Link>
             </div>
             <hr className='w-full' />
-            <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-3 px-3">
+             <div className="flex lg:justify-center gap-5 overflow-x-scroll webkit w-full py-2 px-3">
             {dell_product.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 px-3 hover:scale-[1.01] hover:transition[0.3s] " key={i}>
-                <img src={val.image} alt="" className='max-w-full h-auto' />
-               <div className="flex flex-col items-center">
-                <div className="text-sm font-bold">{val.name}</div>
-                <div className="text-sm">({val.Detail})</div>
-               </div>
-                <div className="flex gap-2">
-                    <div className="text-sm px-1 bg-green-700 text-white">{val.rating}</div>
-                    <div className="text-xs">({val.review})</div>
-                </div>
-                <div className="flex gap-3">
-                    <div className="text-sm">{val.new_price}</div>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 px-3 hover:scale-[1.01] hover:transition[0.3s]" key={i}>
+                <img src={val.image} alt="" className='max-w-full h-auto object-contain' />
+                <div className="text-sm font-bold text-center">{val.alt}</div>
+                <div className="flex gap-4">
+                    <div className="text-sm font-bold">{val.new_price}</div>
                     <div className="text-sm line-through text-gray-600">{val.old_price}</div>
                 </div>
               </div>
@@ -94,25 +80,18 @@ function Laptop(props) {
           </div>
              {/* Lenovo */}
              <hr className='w-full mt-1' />
-        <div className="flex justify-between items-center px-4">
+        <div className="flex justify-between items-center px-32">
             <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/lenovo')}}>Lenovo Laptops</h4>
             <Link to='/lenovo' className='text-green-600 hover:underline hover:text-green-600'>View all</Link>
             </div>
             <hr className='w-full' />
-            <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-3 px-3">
+             <div className="flex lg:justify-center gap-5 overflow-x-scroll webkit w-full py-2 px-3">
             {lenovo_product.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 px-3 hover:scale-[1.01] hover:transition[0.3s] " key={i}>
-                <img src={val.image} alt="" className='max-w-full h-auto' />
-               <div className="flex flex-col items-center">
-                <div className="text-sm font-bold">{val.name}</div>
-                <div className="text-sm">({val.Detail})</div>
-               </div>
-                <div className="flex gap-2">
-                    <div className="text-sm px-1 bg-green-700 text-white">{val.rating}</div>
-                    <div className="text-xs">({val.review})</div>
-                </div>
-                <div className="flex gap-3">
-                    <div className="text-sm">{val.new_price}</div>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 px-3 hover:scale-[1.01] hover:transition[0.3s]" key={i}>
+                <img src={val.image} alt="" className='max-w-full h-auto object-contain' />
+                <div className="text-sm font-bold text-center">{val.alt}</div>
+                <div className="flex gap-4">
+                    <div className="text-sm font-bold">{val.new_price}</div>
                     <div className="text-sm line-through text-gray-600">{val.old_price}</div>
                 </div>
               </div>
@@ -120,25 +99,18 @@ function Laptop(props) {
           </div>
            {/* Asus */}
            <hr className='w-full mt-1' />
-        <div className="flex justify-between items-center px-4">
+        <div className="flex justify-between items-center px-32">
             <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/asus')}}>Asus Laptops</h4>
             <Link to='/asus' className='text-green-600 hover:underline hover:text-green-600'>View all</Link>
             </div>
             <hr className='w-full' />
-            <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-3 px-3">
+              <div className="flex lg:justify-center gap-5 overflow-x-scroll webkit w-full py-2 px-3">
             {asus_product.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 px-3 hover:scale-[1.01] hover:transition[0.3s] " key={i}>
-                <img src={val.image} alt="" className='max-w-full h-auto' />
-               <div className="flex flex-col items-center">
-                <div className="text-sm font-bold">{val.name}</div>
-                <div className="text-sm">({val.Detail})</div>
-               </div>
-                <div className="flex gap-2">
-                    <div className="text-sm px-1 bg-green-700 text-white">{val.rating}</div>
-                    <div className="text-xs">({val.review})</div>
-                </div>
-                <div className="flex gap-3">
-                    <div className="text-sm">{val.new_price}</div>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 px-3 hover:scale-[1.01] hover:transition[0.3s]" key={i}>
+                <img src={val.image} alt="" className='max-w-full h-auto object-contain' />
+                <div className="text-sm font-bold text-center">{val.alt}</div>
+                <div className="flex gap-4">
+                    <div className="text-sm font-bold">{val.new_price}</div>
                     <div className="text-sm line-through text-gray-600">{val.old_price}</div>
                 </div>
               </div>
@@ -146,25 +118,18 @@ function Laptop(props) {
           </div>
             {/* Acer */}
             <hr className='w-full mt-1' />
-        <div className="flex justify-between items-center px-4">
+        <div className="flex justify-between items-center px-32">
             <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/acer')}}>Acer Laptops</h4>
             <Link to='/acer' className='text-green-600 hover:underline hover:text-green-600'>View all</Link>
             </div>
             <hr className='w-full' />
-            <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-3 px-3">
+             <div className="flex lg:justify-center gap-5 overflow-x-scroll webkit w-full py-2 px-3">
             {acer_product.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 px-3 hover:scale-[1.01] hover:transition[0.3s] " key={i}>
-                <img src={val.image} alt="" className='max-w-full h-auto' />
-               <div className="flex flex-col items-center">
-                <div className="text-sm font-bold">{val.name}</div>
-                <div className="text-sm">({val.Detail})</div>
-               </div>
-                <div className="flex gap-2">
-                    <div className="text-sm px-1 bg-green-700 text-white">{val.rating}</div>
-                    <div className="text-xs">({val.review})</div>
-                </div>
-                <div className="flex gap-3">
-                    <div className="text-sm">{val.new_price}</div>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 px-3 hover:scale-[1.01] hover:transition[0.3s]" key={i}>
+                <img src={val.image} alt="" className='max-w-full h-auto object-contain' />
+                <div className="text-sm font-bold text-center">{val.alt}</div>
+                <div className="flex gap-4">
+                    <div className="text-sm font-bold">{val.new_price}</div>
                     <div className="text-sm line-through text-gray-600">{val.old_price}</div>
                 </div>
               </div>
@@ -172,25 +137,18 @@ function Laptop(props) {
           </div>
           {/* Apple */}
           <hr className='w-full mt-1' />
-        <div className="flex justify-between items-center px-4">
+        <div className="flex justify-between items-center px-32">
             <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/apple')}}>Apple Laptops</h4>
             <Link to='/apple' className='text-green-600 hover:underline hover:text-green-600'>View all</Link>
             </div>
             <hr className='w-full' />
-            <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-3 px-3">
+             <div className="flex lg:justify-center gap-5 overflow-x-scroll webkit w-full py-2 px-3">
             {apple_product.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 px-3 hover:scale-[1.01] hover:transition[0.3s] " key={i}>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 px-3 hover:scale-[1.01] hover:transition[0.3s]" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
-               <div className="flex flex-col items-center">
-                <div className="text-sm font-bold">{val.name}</div>
-                <div className="text-sm">({val.Detail})</div>
-               </div>
-                <div className="flex gap-2">
-                    <div className="text-sm px-1 bg-green-700 text-white">{val.rating}</div>
-                    <div className="text-xs">({val.review})</div>
-                </div>
-                <div className="flex gap-3">
-                    <div className="text-sm">{val.new_price}</div>
+                <div className="text-sm font-bold text-center">{val.alt}</div>
+                <div className="flex gap-4">
+                    <div className="text-sm font-bold">{val.new_price}</div>
                     <div className="text-sm line-through text-gray-600">{val.old_price}</div>
                 </div>
               </div>

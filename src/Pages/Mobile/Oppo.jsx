@@ -43,7 +43,7 @@ function Oppo(props) {
             {
                 allOppo.map((val,ind)=>
                     <div className="flex justify-center gap-3 sm:gap-6 md:gap-10 lg:gap-16 bg-white p-3 pb-3 border-bottom mb-2 w-full cursor-pointer" key={ind}>
-                <div className="w-36 image sm:w-[19%] md:w-[17%] lg:w-[14%] ">
+                <div className="w-36 image sm:w-[19%] md:w-[17%] lg:w-[11%] ">
                     <img src={val.image} alt="" className='max-w-full h-auto' />
                 </div>
                 <div className="flex flex-col gap-1">

@@ -41,23 +41,32 @@ function Suit(props) {
         </div>
         <hr className='w-full pt-[1px] mt-2 mx-auto'/>
 
-        <div className="flex justify-center gap-3 flex-wrap overflow-x-scroll webkit w-full mt-4 mb-2 px-4 sm:px-14 md:px-16">
-            {allSuit.map((val,i)=>
-               <div className="flex flex-col items-center gap-1 my-2 w-32 sm:w-44 md:w-52" key={i}>
-               <img src={val.image} alt="" className='max-w-full h-auto rounded' />
-              <div className="flex flex-col items-center">
-               <div className="text-sm text-gray-400">{val.brand}</div>
-               <div className="text-sm font-semibold cursor-pointer text-center sm:text-base">{val.name}</div>
+         <div className="flex justify-center gap-3 flex-wrap overflow-x-scroll webkit w-full mt-4 mb-2 px-4 sm:px-14 md:px-16">
+        {allSuit.map((val, i) => (
+          <div
+            className="flex relative flex-col items-center gap-1 my-2 w-32 sm:w-44 md:w-52"
+            key={i}
+          >
+             <div className="text-xs sm:text-sm text-white absolute right-0 top-0 bg-pink-500 p-2 rounded-full ">
+              {val.offer}
+            </div>
+            <img src={val.image} alt="" className="max-w-full h-auto rounded" />
+            <div className="text-xs text-gray-400">{val.brand}</div>
+            <div className="text-sm font-semibold cursor-pointer text-center">
+              {val.name}
+            </div>
+            <div className="flex gap-3 items-center">
+              <div className="text-sm font-semibold">{val.new_price}</div>
+              <div className="text-[11px] sm:text-sm line-through text-gray-600">
+                {val.old_price}
               </div>
-              <div className="flex gap-1 items-center sm:gap-2">
-                  <div className="text-xs font-semibold">{val.new_price}</div>
-                  <div className="text-[11px] sm:text-sm line-through text-gray-600">{val.old_price}</div>
-                  <div className="text-[11px] sm:text-sm text-green-500">{val.offer}</div>
-              </div>
-               <div className='text-xs sm:text-sm text-gray-500'>Size : {val.size}</div>
-             </div>
-            )}
+            </div>
+            <div className="text-xs sm:text-sm text-gray-500">
+              Size : {val.size}
+            </div>
           </div>
+        ))}
+      </div>
         </>
     );
 }

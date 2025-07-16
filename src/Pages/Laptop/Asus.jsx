@@ -46,7 +46,7 @@ function Asus(props) {
             {
                 allAsus.map((val,ind)=>
                     <div className="flex justify-center gap-3 px-2 sm:px-0 sm:gap-3 md:gap-8 lg:gap-10 bg-white pt-2 pb-3 mb-3 w-full cursor-pointer border-bottom" key={ind}>
-                <div className="w-[37%] lp-image sm:w-[30%] md:w-[25%] lg:w-[22%]">
+                <div className="w-[37%] lp-image sm:w-[30%] md:w-[25%] lg:w-[15%]">
                     <img src={val.image} alt="" className='max-w-full h-auto'/>
                 </div>
                 <div className="flex flex-col gap-1 w-[60%] sm:w-[50%] lg:w-[40%]">
