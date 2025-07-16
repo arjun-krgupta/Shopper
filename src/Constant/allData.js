@@ -15,17 +15,17 @@ import as1 from '../Assets/Laptop/Asus/ASUS Chromebook Intel Celeron Dual Core N
 // men Collection
 import j2 from '../Assets/men/Jeans/2.jpeg'
 import srt1 from '../Assets/men/Shirt/1.jpeg'
-import tsm1 from '../Assets/men/T-Shirt/1.jpeg'
+import tsm1 from '../Assets/men/T_shirt/1.jpeg'
 import coat from "../Assets/men/Coat-Pant/1.jpeg";
 import h1 from '../Assets/men/Hoodie/h1.jpeg'
 import shervani from "../Assets/men/Sherwani/1.jpeg";
 // Women Collection
 import l1 from '../Assets/women/Lehenga/1.jpeg'
 import op5 from '../Assets/women/One-Piece/5.jpeg'
-import ss1 from '../Assets/women/Salwar-Suit/1.jpeg'
+import ss1 from '../Assets/women/Salwar_suit/1.jpeg'
 import g1 from '../Assets/women/Gown/1.jpeg'
 import s1 from '../Assets/women/Suit/1.jpeg'
-import ts1 from '../Assets/women/T-Shirt/1.jpeg'
+import ts1 from '../Assets/women/t_shirt/1.jpeg'
 
 let mobile = [
   {

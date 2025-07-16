@@ -13,7 +13,7 @@ import { allAcer } from '../../Constant/allLaptop';
 
 
 
-function Acer(props) {
+function Acer() {
     const redirect =useNavigate()
     return (
        <>
