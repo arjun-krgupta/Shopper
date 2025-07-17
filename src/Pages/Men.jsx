@@ -42,17 +42,17 @@ function Men() {
         </div>
 
         <h1 className='text-4xl font-bold my-3 text-center md:text-5xl'>Shop by Categories</h1>
-        
-        <hr className='w-full mt-1' />
-        <div className="flex justify-between items-center px-40">
-            <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/hoodie')}} >Hoodie</h4>
-            <Link to='/hoodie' className=''>View all</Link>
+         <hr className='w-full' />
+       <div className='md:px-10 lg:px-16 xl:px-32 mt-3 mb-5'>
+       <div className="flex justify-between items-center px-3 ">
+            <h4 className='font-bold text-sm md:text-xl my-1 cursor-pointer hover:underline' onClick={()=>{redirect('/hoodie')}} >Hoodie</h4>
+            <Link to='/hoodie' className='text-sm md:text-base hover:underline hover:text-blue-500'>View all</Link>
             </div>
                 {/* Hoodie */}
-            <hr className='w-full' />
-            <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-[10px]">
+                    <hr className='w-full mt-1' />
+            <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-3">
             {hoodie.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48" key={i}>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48  hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
@@ -66,16 +66,15 @@ function Men() {
             )}
           </div>
 
-          <hr className='w-full mt-1' />
-        <div className="flex justify-between items-center px-40">
-            <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/jeans')}} >Jeans</h4>
-            <Link to='/jeans' className=''>View all</Link>
+        <div className="flex justify-between items-center px-3 ">
+            <h4 className='font-bold text-sm md:text-xl my-1 cursor-pointer hover:underline' onClick={()=>{redirect('/jeans')}} >Jeans</h4>
+            <Link to='/jeans' className='text-sm md:text-base hover:underline hover:text-blue-500'>View all</Link>
             </div>
                 {/* Jeans */}
             <hr className='w-full' />
-             <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-[10px]">
+             <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-3">
             {jeans.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48" key={i}>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48  hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
@@ -89,16 +88,15 @@ function Men() {
             )}
           </div>
 
-          <hr className='w-full mt-1' />
-        <div className="flex justify-between items-center px-40">
-            <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/shirt')}} >Shirt</h4>
-            <Link to='/shirt' className=''>View all</Link>
+        <div className="flex justify-between items-center px-3 ">
+            <h4 className='font-bold text-sm md:text-xl my-1 cursor-pointer hover:underline' onClick={()=>{redirect('/shirt')}} >Shirt</h4>
+            <Link to='/shirt' className='text-sm md:text-base hover:underline hover:text-blue-500'>View all</Link>
             </div>
                 {/* Shirt */}
             <hr className='w-full' />
-            <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-3">
             {shirt.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48" key={i}>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48  hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
@@ -112,16 +110,15 @@ function Men() {
             )}
           </div>
 
-          <hr className='w-full mt-1' />
-        <div className="flex justify-between items-center px-40">
-            <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/lower')}} >Track Pants</h4>
-            <Link to='/lower' className=''>View all</Link>
+        <div className="flex justify-between items-center px-3 ">
+            <h4 className='font-bold text-sm md:text-xl my-1 cursor-pointer hover:underline' onClick={()=>{redirect('/lower')}} >Track Pants</h4>
+            <Link to='/lower' className='text-sm md:text-base hover:underline hover:text-blue-500'>View all</Link>
             </div>
                 {/* Lower */}
             <hr className='w-full' />
-             <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-[10px]">
+             <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-3">
             {lower.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48" key={i}>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48  hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
@@ -135,16 +132,15 @@ function Men() {
             )}
           </div>
 
-          <hr className='w-full mt-1' />
-        <div className="flex justify-between items-center px-40">
-            <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/pant')}} >Formal/Casual Pants</h4>
-            <Link to='/pant' className=''>View all</Link>
+        <div className="flex justify-between items-center px-3 ">
+            <h4 className='font-bold text-sm md:text-xl my-1 cursor-pointer hover:underline' onClick={()=>{redirect('/pant')}} >Formal/Casual Pants</h4>
+            <Link to='/pant' className='text-sm md:text-base hover:underline hover:text-blue-500'>View all</Link>
             </div>
                 {/* Pant */}
             <hr className='w-full' />
-              <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-[10px]">
+              <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-3">
             {pant.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48" key={i}>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48  hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
@@ -158,16 +154,15 @@ function Men() {
             )}
           </div>
 
-          <hr className='w-full mt-1' />
-        <div className="flex justify-between items-center px-40">
-            <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/tshirt_men')}} >T-Shirt</h4>
-            <Link to='/tshirt_men' className=''>View all</Link>
+        <div className="flex justify-between items-center px-3 ">
+            <h4 className='font-bold text-sm md:text-xl my-1 cursor-pointer hover:underline' onClick={()=>{redirect('/tshirt_men')}} >T-Shirt</h4>
+            <Link to='/tshirt_men' className='text-sm md:text-base hover:underline hover:text-blue-500'>View all</Link>
             </div>
                 {/* T-shirt */}
             <hr className='w-full' />
-             <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-[10px]">
+             <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-3">
             {t_shirt.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48" key={i}>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48  hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
@@ -180,6 +175,8 @@ function Men() {
               </div>
             )}
           </div>
+       </div>
+      
         </>
     );
 }

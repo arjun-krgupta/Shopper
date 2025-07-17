@@ -136,26 +136,27 @@ function Mobile(props) {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-      <hr className="w-full mt-1" />
-      <div className="flex justify-between items-center px-32">
+
+      <div className="md:px-10 lg:px-16 xl:px-28 mt-3 mb-5">
+        <div className="flex items-center justify-between px-3">
         <h4
-          className="font-bold text-xl my-[6px] cursor-pointer hover:underline"
+          className="font-bold text-sm md:text-xl my-1  cursor-pointer hover:underline"
           onClick={() => {
             redirect("/realme");
           }}
         >
           Realme Smartphones
         </h4>
-        <Link to="/Realme" className="">
-          View all
+        <Link to="/Realme" className="text-sm md:text-base hover:underline hover:text-blue-500">
+          View all 
         </Link>
       </div>
+ <hr className="w-full" />
       {/* Realme */}
-      <hr className="w-full" />
-      <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
+      <div className="flex lg:justify-center gap-3 overflow-x-scroll webkit w-full my-3 px-3">
         {realme.map((val, i) => (
           <div
-            className="flex flex-col items-center gap-2 w-36 sm:w-40 px-2 "
+            className="flex flex-col items-center gap-2 w-36 sm:w-40 px-2 hover:rounded hover:shadow-xl hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2 "
             key={i}
           >
             <img src={val.image} alt="" className="max-w-full h-auto" />
@@ -169,24 +170,24 @@ function Mobile(props) {
           </div>
         ))}
       </div>
+      
       {/* Vivo */}
-      <hr className="w-full" />
-      <div className="flex justify-between items-center px-32">
+      <div className="flex justify-between items-center px-3">
         <h4
-          className="font-bold text-xl my-[6px] cursor-pointer hover:underline"
+          className="font-bold text-sm md:text-xl my-[6px] cursor-pointer hover:underline"
           onClick={() => {
             redirect("/vivo");
           }}
         >
           Vivo Smartphones
         </h4>
-        <Link to="/vivo">View all</Link>
+        <Link to="/vivo" className="text-sm md:text-base hover:underline hover:text-blue-500">View all</Link>
       </div>
       <hr className="w-full" />
-     <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
+      <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
         {vivo.map((val, i) => (
           <div
-            className="flex flex-col items-center gap-2 w-36 sm:w-40 px-2 "
+            className="flex flex-col items-center gap-2 w-36 sm:w-40 px-2 hover:rounded hover:shadow-xl hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2 "
             key={i}
           >
             <img src={val.image} alt="" className="max-w-full h-auto" />
@@ -201,23 +202,22 @@ function Mobile(props) {
         ))}
       </div>
       {/* Samsung */}
-      <hr className="w-full" />
-      <div className="flex justify-between items-center px-32">
+      <div className="flex justify-between items-center px-4 sm:px-7 md:px-8 lg:px-9 xl:px-40">
         <h4
-          className="font-bold text-xl my-[6px] cursor-pointer hover:underline"
+          className="font-bold text-sm md:text-xl my-[6px] cursor-pointer hover:underline"
           onClick={() => {
             redirect("/samsung");
           }}
         >
           Samsung Smartphones
         </h4>
-        <Link to="/samsung">View all</Link>
+        <Link to="/samsung" className="text-sm md:text-base hover:underline hover:text-blue-500">View all</Link>
       </div>
       <hr className="w-full" />
-     <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
+      <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
         {samsung.map((val, i) => (
           <div
-            className="flex flex-col items-center gap-2 w-36 sm:w-40 px-2 "
+            className="flex flex-col items-center gap-2 w-36 sm:w-40 px-2 hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2 "
             key={i}
           >
             <img src={val.image} alt="" className="max-w-full h-auto" />
@@ -232,23 +232,22 @@ function Mobile(props) {
         ))}
       </div>
       {/* Poco */}
-      <hr className="w-full" />
-      <div className="flex justify-between items-center px-32">
+      <div className="flex justify-between items-center px-4 sm:px-7 md:px-8 lg:px-9 xl:px-40">
         <h4
-          className="font-bold text-xl my-[6px] cursor-pointer hover:underline"
+          className="font-bold text-sm md:text-xl my-[6px] cursor-pointer hover:underline"
           onClick={() => {
             redirect("/poco");
           }}
         >
           Poco Smartphones
         </h4>
-        <Link to="/poco">View all</Link>
+        <Link to="/poco" className="text-sm md:text-base hover:underline hover:text-blue-500">View all</Link>
       </div>
       <hr className="w-full" />
-     <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
+      <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
         {poco.map((val, i) => (
           <div
-            className="flex flex-col items-center gap-2 w-36 sm:w-40 px-2 "
+            className="flex flex-col items-center gap-2 w-36 sm:w-40 px-2 hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2"
             key={i}
           >
             <img src={val.image} alt="" className="max-w-full h-auto" />
@@ -263,23 +262,22 @@ function Mobile(props) {
         ))}
       </div>
       {/* Oppo */}
-      <hr className="w-full" />
-      <div className="flex justify-between items-center px-32">
+      <div className="flex justify-between items-center px-4 sm:px-7 md:px-8 lg:px-9 xl:px-40">
         <h4
-          className="font-bold text-xl my-[6px] cursor-pointer hover:underline"
+          className="font-bold text-sm md:text-xl my-[6px] cursor-pointer hover:underline"
           onClick={() => {
             redirect("/oppo");
           }}
         >
           Oppo Smartphones
         </h4>
-        <Link to="/oppo">View all</Link>
+        <Link to="/oppo" className="text-sm md:text-base hover:underline hover:text-blue-500">View all</Link>
       </div>
       <hr className="w-full" />
       <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
         {oppo.map((val, i) => (
           <div
-            className="flex flex-col items-center gap-2 w-36 sm:w-40 px-2 "
+            className="flex flex-col items-center gap-2 w-36 sm:w-40 px-2 hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2"
             key={i}
           >
             <img src={val.image} alt="" className="max-w-full h-auto" />
@@ -294,26 +292,25 @@ function Mobile(props) {
         ))}
       </div>
       {/* Iphone */}
-      <hr className="w-full" />
-      <div className="flex justify-between items-center px-32">
+      <div className="flex justify-between items-center px-4 sm:px-7 md:px-8 lg:px-9 xl:px-40">
         <h4
-          className="font-bold text-xl my-[6px] cursor-pointer hover:underline"
+          className="font-bold text-sm md:text-xl my-[6px] cursor-pointer hover:underline"
           onClick={() => {
             redirect("/iphone");
           }}
         >
           Apple Smartphones
         </h4>
-        <Link to="/iphone">View all</Link>
+        <Link to="/iphone" className="text-sm md:text-base hover:underline hover:text-blue-500">View all</Link>
       </div>
       <hr className="w-full" />
-     <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
+      <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
         {iphone.map((val, i) => (
           <div
-            className="flex flex-col items-center gap-2 w-36 sm:w-40 px-2 "
+            className="flex flex-col items-center gap-2 w-36 sm:w-40 px-2 hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2"
             key={i}
           >
-            <img src={val.image} alt="" className="max-w-full h-auto" />
+            <img src={val.image} alt="" className="max-w-full h-auto " />
             <div className="text-[13px] font-bold text-center">{val.name}</div>
             <div className="flex gap-3">
               <div className="text-sm font-bold">{val.new_price}</div>
@@ -324,6 +321,7 @@ function Mobile(props) {
           </div>
         ))}
       </div>
+          </div>
     </>
   );
 }
