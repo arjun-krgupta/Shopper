@@ -1,8 +1,9 @@
-import React from "react";
-import { Link } from "react-router-dom";
+
+import { Link,useNavigate } from "react-router-dom";
 import logo from "../Assets/Icon/logo.png";
 
 function Navbar() {
+const redirect=useNavigate()
   return (
     <>
   <nav className=" flex flex-col gap-[6px] h-[80px] py-1 sm:h-[65px] w-full bg-[#0d6efd] px-2">
@@ -25,7 +26,7 @@ function Navbar() {
               Login
             </span>
             <div className="flex text-white text-base ">
-              <i className="fa-solid fa-cart-shopping md:text-xl lg:text-xl"></i>
+              <i className="fa-solid fa-cart-shopping md:text-xl lg:text-xl" onClick={()=>redirect('/cart')}></i>
               <span className="mt-[-13px] ms-[1px]">0</span>
             </div>
           </div>

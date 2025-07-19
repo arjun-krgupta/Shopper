@@ -1,4 +1,4 @@
-import React from "react";
+
 import {useNavigate } from "react-router-dom";
 import mobile from "../Assets/Icon/phones.png";
 import laptop from "../Assets/Icon/laptop.png";

@@ -1,6 +1,5 @@
-import React from 'react';
 
-function loginSignup(props) {
+function loginSignup() {
     return (
         <>
         

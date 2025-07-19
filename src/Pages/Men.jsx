@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import hoodie_icon from '../Assets/Icon/hoodie.jpeg'
@@ -9,40 +9,36 @@ import shirt_icon from '../Assets/Icon/shirt.jpg'
 import tshirt_icon from '../Assets/Icon/t_Shirt.jpeg'
 import { hoodie, jeans, lower, pant, shirt, t_shirt } from '../Constant/allMen';
 
+const clothData=[
+  {name:"hoodie",img:hoodie_icon,alt:"Hoodie"},
+  {name:"jeans",img:jeans_icon,alt:"Jeans"},
+  {name:"lower",img:lower_icon,alt:"Lower"},
+  {name:"pant",img:pant_icon,alt:"Pant"},
+  {name:"shirt",img:shirt_icon,alt:"Shirt"},
+  {name:"tshirt_men",img:tshirt_icon,alt:"Tshirt"}
+]
 
 function Men() {
   const redirect=useNavigate()
     return (
         <>
+        {/* Clothes icons */}
          <div className='flex justify-center items-center gap-2 sm:gap-4 w-full mt-2'>
-            <div className="w-11 hover:text-blue-700 sm:w-16 md:w-20 cursor-pointer " onClick={()=>{redirect('/hoodie')}}>
-            <img src={hoodie_icon} alt="" className="max-w-full h-auto object-cover rounded-[50px]" />
-            <p className="text-xs sm:text-sm text-center font-semibold">Hoodie</p>
-            </div>
-            <div className="w-11 hover:text-blue-700 sm:w-16 md:w-20 cursor-pointer" onClick={()=>{redirect('/shirt')}}>
-            <img src={shirt_icon} alt="" className="max-w-full h-auto object-cover rounded-[50px]" />
-            <p className="text-xs sm:text-sm text-center font-semibold">Shirt</p>
-            </div>
-            <div className="w-11 hover:text-blue-700 sm:w-16 md:w-20 cursor-pointer" onClick={()=>{redirect('/pant')}}>
-            <img src={pant_icon} alt="" className="max-w-full h-auto object-cover rounded-[50px]" />
-            <p className="text-xs sm:text-sm text-center font-semibold">Pant</p>
-            </div>
-            <div className="w-11 hover:text-blue-700 sm:w-16 md:w-20 cursor-pointer" onClick={()=>{redirect('/lower')}}>
-            <img src={lower_icon} alt="" className="max-w-full h-auto object-cover rounded-[50px]" />
-            <p className="text-xs sm:text-sm text-center font-semibold">Lower</p>
-            </div>
-           <div className="w-11 hover:text-blue-700 sm:w-16 md:w-20 cursor-pointer" onClick={()=>{redirect('/jeans')}}>
-           <img src={jeans_icon} alt="" className="max-w-full h-auto object-cover rounded-[50px]" />
-           <p className="text-xs sm:text-sm text-center font-semibold">Jeans</p>
-           </div>
-            <div className="w-11 hover:text-blue-700 sm:w-16 md:w-20 cursor-pointer" onClick={()=>{redirect('/tshirt_men')}}>
-            <img src={tshirt_icon} alt="" className="max-w-full h-auto object-cover rounded-[50px]" />
-            <p className="text-xs sm:text-sm text-center font-semibold">T-shirt</p>
-            </div>
-        </div>
+          {
+            clothData.map((cloth,index)=> (
+             <div key={index} 
+             className="w-11 hover:text-blue-700 sm:w-16 md:w-20 cursor-pointer " onClick={()=>redirect(`/${cloth.name}`)}>
+              <img src={cloth.img} alt="" className="max-w-full h-auto object-cover rounded-[50px]" />
+            <p className="text-xs sm:text-sm text-center font-semibold">{cloth.alt}</p>
+             </div>
+            
+           ) )
+          }
+      </div>
 
         <h1 className='text-4xl font-bold my-3 text-center md:text-5xl'>Shop by Categories</h1>
          <hr className='w-full' />
+
        <div className='md:px-10 lg:px-16 xl:px-32 mt-3 mb-5'>
        <div className="flex justify-between items-center px-3 ">
             <h4 className='font-bold text-sm md:text-xl my-1 cursor-pointer hover:underline' onClick={()=>{redirect('/hoodie')}} >Hoodie</h4>

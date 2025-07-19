@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Navbar from './Common/Navbar';
 import { BrowserRouter, Route,Routes } from 'react-router-dom';
 import Laptop from './Pages/Laptop';
@@ -34,7 +34,7 @@ import Tshirt_Men from './Pages/Men/Tshirt_Men';
 import Tshirt_Women from './Pages/Women/Tshirt_Women';
 
 
-function App(props) {
+function App() {
     return (
      <>
      <BrowserRouter>

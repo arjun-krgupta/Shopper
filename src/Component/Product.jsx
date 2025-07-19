@@ -1,5 +1,4 @@
 
-import React from 'react';
 import { Link,useNavigate } from 'react-router-dom';
 import realme from "../Assets/Mobile/Realme/realme 11x5g black.jpg";
 import vivo from "../Assets/Mobile/Vivo/vivo T2 pro 5g.jpg";

@@ -1,11 +1,10 @@
 
-import React from 'react';
 import slide1 from '../Assets/Slider/mobile-banner.png'
 import slide2 from '../Assets/Slider/laptop banner.png'
 import slide3 from '../Assets/Slider/man banner.png'
 import slide4 from '../Assets/Slider/woman banner.png'
 
-function Slider(props) {
+function Slider() {
   return (
    <>
     <div id="carouselExampleIndicators" className="carousel slide mt-1" data-bs-ride="carousel" data-bs-interval="4000">
