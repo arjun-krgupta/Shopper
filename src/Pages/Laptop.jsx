@@ -104,7 +104,7 @@ function Laptop() {
         {brandData.map((brand, index) => (
           <div
             key={index}
-            className="w-14 sm:w-24 md:w-28 lg:w-32 cursor-pointer sm:me-2 lg:me-7 sm:hover:scale-[1.05] sm:hover:transition"
+            className="w-14 sm:w-24 md:w-28 lg:w-32 cursor-pointer sm:me-2 lg:me-4 sm:hover:scale-[1.05] sm:hover:transition"
             onClick={() => redirect(`/${brand.name}`)}
           >
             <img

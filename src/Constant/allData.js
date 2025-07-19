@@ -6,26 +6,26 @@ import sm1 from "../Assets/Mobile/Samsung/samsung galaxy A35 5G.jpg";
 import p1 from "../Assets/Mobile/Poco/Poco m6 pro.jpg";
 import o1 from "../Assets/Mobile/Oppo/oppo A38.jpg";
 // laptop
-import hp1 from "../Assets/Laptop/Hp/HP AMD Ryzen 3 Quad Core 5300U.jpeg";
+import hp1 from "../Assets/Laptop/hp/HP 250 G9 Intel Core i3.jpeg";
 import i1 from '../Assets/Laptop/Apple/i1.jpeg'
 import acer1 from '../Assets/Laptop/Acer/ac1.jpeg'
-import lv1 from '../Assets/Laptop/Lenovo/Lenovo V15 AMD Ryzen 3 Quad Core 7320U.jpeg'
-import d1 from '../Assets/Laptop/Dell/DELL Inspiron 3520 Intel Core i3.jpeg'
+import lv1 from '../Assets/Laptop/Lenovo/Lenovo AMD Ryzen 3 Quad Core 7330U.jpeg'
+import d1 from '../Assets/Laptop/Dell/DELL 3540 Intel Core i3 12th Gen.jpeg'
 import as1 from '../Assets/Laptop/Asus/ASUS Chromebook Intel Celeron Dual Core N4500.jpeg'
 // men Collection
-import j2 from '../Assets/men/Jeans/2.jpeg'
-import srt1 from '../Assets/men/Shirt/1.jpeg'
-import tsm1 from '../Assets/men/T_shirt/1.jpeg'
-import coat from "../Assets/men/Coat_pant/1.jpeg";
-import h1 from '../Assets/men/Hoodie/h1.jpeg'
-import shervani from "../Assets/men/Sherwani/1.jpeg";
+import j2 from '../Assets/men/Jeans/2.png'
+import srt1 from '../Assets/men/Shirt/1.png'
+import tsm1 from '../Assets/men/T_shirt/1.png'
+import coat from "../Assets/men/Coat_pant/5.png";
+import h1 from '../Assets/men/Hoodie/h1.png'
+import tp1 from "../Assets/men/Track_pant/4.png";
 // Women Collection
-import l1 from '../Assets/women/Lehenga/1.jpeg'
-import op5 from '../Assets/women/One_piece/5.jpeg'
-import ss1 from '../Assets/women/Salwar_suit/1.jpeg'
-import g1 from '../Assets/women/Gown/1.jpeg'
-import s1 from '../Assets/women/Suit/1.jpeg'
-import ts1 from '../Assets/women/t_shirt/1.jpeg'
+import l1 from '../Assets/women/Lehenga/1.png'
+import op5 from '../Assets/women/One_piece/4.png'
+import ss1 from '../Assets/women/Salwar_suit/5.png'
+import g1 from '../Assets/women/Gown/1.png'
+import s1 from '../Assets/women/Suit/5.png'
+import ts1 from '../Assets/women/t_shirt/2.png'
 
 let mobile = [
   {
@@ -318,12 +318,18 @@ let men = [
     alt:"Coat Pant",
   },
   {
-    name: "Shervani",
-    image: shervani,
-    new_price: `₹1500`,
-    old_price:`₹2500`,
-    alt:"Shervani",
-  },
+        id:4,
+        brand:"Allen Solly",
+        name:"Men Solid Track-Pants",
+        image:tp1,
+        new_price:"₹799",
+        old_price:"₹1099",
+        offer:"40% off",
+        rating:"4.3★",
+        review:1256,
+        size:"30 , 32 , 34 ", 
+        alt:"Track Pant",
+    },
 ];
 export { men };
 
