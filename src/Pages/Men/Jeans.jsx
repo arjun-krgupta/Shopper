@@ -1,28 +1,11 @@
 
-import hoodie_icon from "../../Assets/Icon/hoodie.jpeg";
-import jeans_icon from "../../Assets/Icon/jeans.jpeg";
-import lower_icon from "../../Assets/Icon/lower.jpeg";
-import pant_icon from "../../Assets/Icon/pant.jpeg";
-import shirt_icon from "../../Assets/Icon/shirt.jpg";
-import tshirt_icon from "../../Assets/Icon/t_Shirt.jpeg";
-import { useNavigate } from "react-router-dom";
 import { allJeans } from "../../Constant/allMen";
 
-const clothData = [
-  { name: "hoodie", img: hoodie_icon, alt: "Hoodie" },
-  { name: "jeans", img: jeans_icon, alt: "Jeans" },
-  { name: "lower", img: lower_icon, alt: "Lower" },
-  { name: "pant", img: pant_icon, alt: "Pant" },
-  { name: "shirt", img: shirt_icon, alt: "Shirt" },
-  { name: "tshirt_men", img: tshirt_icon, alt: "Tshirt" },
-];
-
 function Jeans() {
-  const redirect = useNavigate();
   return (
     <>
       {/* Men Clothes icons */}
-      <div className="flex justify-center items-center gap-2 sm:gap-4 w-full mt-2">
+      {/* <div className="flex justify-center items-center gap-2 sm:gap-4 w-full mt-2">
         {clothData.map((cloth, index) => (
           <div
             key={index}
@@ -39,14 +22,14 @@ function Jeans() {
             </p>
           </div>
         ))}
-      </div>
+      </div> */}
 
-      <hr className="w-full pt-[1px] mt-2 mx-auto" />
+      {/* <hr className="w-full pt-[1px] mt-2 mx-auto" /> */}
 
       <div className="flex justify-center gap-3 flex-wrap overflow-x-scroll webkit w-full mt-4 mb-2 px-4 sm:px-14 md:px-16">
         {allJeans.map((val, i) => (
           <div
-            className="flex relative flex-col items-center gap-1 my-2 w-32 sm:w-44 md:w-52"
+            className="flex relative flex-col hover:rounded hover:shadow-xl hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] items-center gap-1 py-2 my-2 w-32 sm:w-44 md:w-52"
             key={i}
           >
             <div className="text-xs sm:text-sm text-white absolute right-0 top-0 bg-blue-500 p-2 rounded-full ">

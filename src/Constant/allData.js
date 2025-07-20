@@ -16,8 +16,8 @@ import as1 from '../Assets/Laptop/Asus/ASUS Chromebook Intel Celeron Dual Core N
 import j2 from '../Assets/men/Jeans/2.png'
 import srt1 from '../Assets/men/Shirt/1.png'
 import tsm1 from '../Assets/men/T_shirt/1.png'
-import coat from "../Assets/men/Coat_pant/5.png";
-import h1 from '../Assets/men/Hoodie/h1.png'
+import coat from "../Assets/men/Coat_pant/1.png";
+import h1 from '../Assets/men/Hoodie/1.png'
 import tp1 from "../Assets/men/Track_pant/4.png";
 // Women Collection
 import l1 from '../Assets/women/Lehenga/1.png'

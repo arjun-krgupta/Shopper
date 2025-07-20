@@ -7,6 +7,7 @@ import lower_icon from '../Assets/Icon/lower.jpeg'
 import pant_icon from '../Assets/Icon/pant.jpeg'
 import shirt_icon from '../Assets/Icon/shirt.jpg'
 import tshirt_icon from '../Assets/Icon/t_Shirt.jpeg'
+import coat_icon from '../Assets/Icon/Coat-pant.jpeg'
 import { hoodie, jeans, lower, pant, shirt, t_shirt } from '../Constant/allMen';
 
 const clothData=[
@@ -15,7 +16,8 @@ const clothData=[
   {name:"lower",img:lower_icon,alt:"Lower"},
   {name:"pant",img:pant_icon,alt:"Pant"},
   {name:"shirt",img:shirt_icon,alt:"Shirt"},
-  {name:"tshirt_men",img:tshirt_icon,alt:"Tshirt"}
+  {name:"tshirt_men",img:tshirt_icon,alt:"Tshirt"},
+  {name:"coat",img:coat_icon,alt:"Coat Pant"}
 ]
 
 function Men() {

@@ -15,7 +15,7 @@ function Item() {
             View all
           </Link>
         </div>
-        <div className="flex justify-start overflow-x-scroll webkit w-full gap-3 py-1">
+        <div className="flex justify-start overflow-x-scroll webkit w-full gap-3 py-2">
           {categoryItems.map((val, ind) => (
             <div
               key={ind}

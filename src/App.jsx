@@ -32,6 +32,7 @@ import Suit from './Pages/Women/Suit';
 import Women from './Pages/Women'
 import Tshirt_Men from './Pages/Men/Tshirt_Men';
 import Tshirt_Women from './Pages/Women/Tshirt_Women';
+import Coat_Pant from './Pages/Men/Coat_Pant';
 
 
 function App() {
@@ -63,6 +64,7 @@ function App() {
         <Route path='/jeans' element={<Jeans/>} />
         <Route path='/lower' element={<Lower/>} />
         <Route path='/pant' element={<Pant/>} />
+         <Route path='/coat' element={<Coat_Pant />} />
         <Route path='/shirt' element={<Shirt/>} />
         <Route path='/tshirt_men' element={<Tshirt_Men/>} />
         <Route path='/lehenga' element={<Lehenga/>} />

@@ -1,28 +1,12 @@
 
-import lehenga_icon from "../../Assets/Icon/Lehenga.jpeg";
-import gown_icon from "../../Assets/Icon/gown.jpeg";
-import onePiece_icon from "../../Assets/Icon/one-piece.jpeg";
-import suitSalwar_icon from "../../Assets/Icon/suit-salwar.jpeg";
-import suit_icon from "../../Assets/Icon/suit.jpeg";
-import tShirt_icon from "../../Assets/Icon/t-shirt.jpeg";
-import { useNavigate } from "react-router-dom";
 import { allOne_piece } from "../../Constant/allWomen";
 
-const clothData = [
-  { name: "lehenga", img: lehenga_icon, alt: "Lahenga" },
-  { name: "gown", img: gown_icon, alt: "Gown" },
-  { name: "suit", img: suit_icon, alt: "Suit" },
-  { name: "one-piece", img: onePiece_icon, alt: "One-Pis" },
-  { name: "suit-salwar", img: suitSalwar_icon, alt: "Salwar Suit" },
-  { name: "tshirt_women", img: tShirt_icon, alt: "Tshirt" },
-];
 
 function One_Piece() {
-  const redirect = useNavigate();
   return (
     <>
       {/* Women Clothes icon */}
-      <div className="flex justify-center items-center gap-2 sm:gap-4 w-full mt-2">
+      {/* <div className="flex justify-center items-center gap-2 sm:gap-4 w-full mt-2">
         {clothData.map((cloth, index) => (
           <div
             key={index}
@@ -41,14 +25,14 @@ function One_Piece() {
             </p>
           </div>
         ))}
-      </div>
+      </div> */}
 
-      <hr className="w-full pt-[1px] mt-2 mx-auto" />
+      {/* <hr className="w-full pt-[1px] mt-2 mx-auto" /> */}
 
       <div className="flex justify-center gap-3 flex-wrap overflow-x-scroll webkit w-full mt-4 mb-2 px-4 sm:px-14 md:px-16">
         {allOne_piece.map((val, i) => (
           <div
-            className="flex relative flex-col items-center gap-1 my-2 w-32 sm:w-44 md:w-52"
+            className="flex relative flex-col py-2 hover:rounded hover:shadow-xl hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] items-center gap-1 my-2 w-32 sm:w-44 md:w-52"
             key={i}
           >
             <div className="text-xs sm:text-sm text-white absolute right-0 top-0 bg-pink-500 p-2 rounded-full ">

@@ -1,238 +1,214 @@
-import h1 from '../Assets/men/Hoodie/h1.png'
-import h2 from '../Assets/men/Hoodie/h2.jpeg'
-import h3 from '../Assets/men/Hoodie/h3.jpeg'
-import h4 from '../Assets/men/Hoodie/h4.jpeg'
-import h5 from '../Assets/men/Hoodie/h5.jpeg'
-import h6 from '../Assets/men/Hoodie/h6.jpeg'
-import h7 from '../Assets/men/Hoodie/h7.jpeg'
-import h8 from '../Assets/men/Hoodie/h8.jpeg'
-import h9 from '../Assets/men/Hoodie/h9.jpeg'
-import h10 from '../Assets/men/Hoodie/h10.jpeg'
-import h11 from '../Assets/men/Hoodie/h11.jpeg'
-import h12 from '../Assets/men/Hoodie/h12.jpeg'
-import h13 from '../Assets/men/Hoodie/h13.jpeg'
-import h14 from '../Assets/men/Hoodie/h14.jpeg'
-import h15 from '../Assets/men/Hoodie/h15.jpeg'
-import h16 from '../Assets/men/Hoodie/h16.jpeg'
-import h17 from '../Assets/men/Hoodie/h17.jpeg'
-import h18 from '../Assets/men/Hoodie/h18.jpeg'
-import h19 from '../Assets/men/Hoodie/h19.jpeg'
-import h20 from '../Assets/men/Hoodie/h20.jpeg'
-import h21 from '../Assets/men/Hoodie/h21.jpeg'
-import h22 from '../Assets/men/Hoodie/h22.jpeg'
-import h23 from '../Assets/men/Hoodie/h23.jpeg'
-import h24 from '../Assets/men/Hoodie/h24.jpeg'
-import h25 from '../Assets/men/Hoodie/h25.jpeg'
-import h26 from '../Assets/men/Hoodie/h26.jpeg'
-import h27 from '../Assets/men/Hoodie/h27.jpeg'
-import h28 from '../Assets/men/Hoodie/h28.jpeg'
-import h29 from '../Assets/men/Hoodie/h29.jpeg'
-import h30 from '../Assets/men/Hoodie/h30.jpeg'
-import h31 from '../Assets/men/Hoodie/h31.jpeg'
-import h32 from '../Assets/men/Hoodie/h32.jpeg'
-import h33 from '../Assets/men/Hoodie/h33.jpeg'
-import h34 from '../Assets/men/Hoodie/h34.jpeg'
-import h35 from '../Assets/men/Hoodie/h35.jpeg'
-import h36 from '../Assets/men/Hoodie/h36.jpeg'
-import h37 from '../Assets/men/Hoodie/h37.jpeg'
-import h38 from '../Assets/men/Hoodie/h38.jpeg'
-import h39 from '../Assets/men/Hoodie/h39.jpeg'
-import h40 from '../Assets/men/Hoodie/h40.jpeg'
-import h41 from '../Assets/men/Hoodie/h41.jpeg'
-import h42 from '../Assets/men/Hoodie/h42.jpeg'
-import h43 from '../Assets/men/Hoodie/h43.jpg'
-import h44 from '../Assets/men/Hoodie/h44.jpg'
+import h1 from '../Assets/men/Hoodie/1.png'
+import h2 from '../Assets/men/Hoodie/2.png'
+import h3 from '../Assets/men/Hoodie/3.png'
+import h4 from '../Assets/men/Hoodie/4.png'
+import h5 from '../Assets/men/Hoodie/5.png'
+import h6 from '../Assets/men/Hoodie/6.png'
+import h7 from '../Assets/men/Hoodie/7.png'
+import h8 from '../Assets/men/Hoodie/8.png'
+import h9 from '../Assets/men/Hoodie/9.png'
+import h10 from '../Assets/men/Hoodie/10.png'
+import h11 from '../Assets/men/Hoodie/11.png'
+import h12 from '../Assets/men/Hoodie/12.png'
+import h13 from '../Assets/men/Hoodie/13.png'
+import h14 from '../Assets/men/Hoodie/14.png'
+import h15 from '../Assets/men/Hoodie/15.png'
+import h16 from '../Assets/men/Hoodie/16.png'
+import h17 from '../Assets/men/Hoodie/17.png'
+import h18 from '../Assets/men/Hoodie/18.png'
+import h19 from '../Assets/men/Hoodie/19.png'
+import h20 from '../Assets/men/Hoodie/20.png'
+import h21 from '../Assets/men/Hoodie/21.png'
+import h22 from '../Assets/men/Hoodie/22.png'
+import h23 from '../Assets/men/Hoodie/23.png'
+import h24 from '../Assets/men/Hoodie/24.png'
+import h25 from '../Assets/men/Hoodie/25.png'
+import h26 from '../Assets/men/Hoodie/26.png'
+import h27 from '../Assets/men/Hoodie/27.png'
+import h28 from '../Assets/men/Hoodie/28.png'
+import h29 from '../Assets/men/Hoodie/29.png'
+import h30 from '../Assets/men/Hoodie/30.png'
+import h31 from '../Assets/men/Hoodie/31.png'
+import h32 from '../Assets/men/Hoodie/32.png'
+import h33 from '../Assets/men/Hoodie/33.png'
+import h34 from '../Assets/men/Hoodie/34.png'
+import h35 from '../Assets/men/Hoodie/35.png'
+import h36 from '../Assets/men/Hoodie/36.png'
+import h37 from '../Assets/men/Hoodie/37.png'
+import h38 from '../Assets/men/Hoodie/38.png'
+import h39 from '../Assets/men/Hoodie/39.png'
+import h40 from '../Assets/men/Hoodie/40.png'
 // jeans
-import j1 from '../Assets/men/Jeans/1.jpeg'
+import j1 from '../Assets/men/Jeans/1.png'
 import j2 from '../Assets/men/Jeans/2.png'
-import j3 from '../Assets/men/Jeans/3.jpeg'
-import j4 from '../Assets/men/Jeans/4.jpeg'
-import j5 from '../Assets/men/Jeans/5.jpeg'
-import j6 from '../Assets/men/Jeans/6.jpeg'
-import j7 from '../Assets/men/Jeans/7.jpeg'
-import j8 from '../Assets/men/Jeans/8.jpeg'
-import j9 from '../Assets/men/Jeans/9.jpeg'
-import j10 from '../Assets/men/Jeans/10.jpeg'
-import j11 from '../Assets/men/Jeans/11.jpeg'
-import j12 from '../Assets/men/Jeans/12.jpeg'
-import j13 from '../Assets/men/Jeans/13.jpeg'
-import j14 from '../Assets/men/Jeans/14.jpeg'
-import j15 from '../Assets/men/Jeans/15.jpeg'
-import j16 from '../Assets/men/Jeans/16.jpeg'
-import j17 from '../Assets/men/Jeans/17.jpeg'
-import j18 from '../Assets/men/Jeans/18.jpeg'
-import j19 from '../Assets/men/Jeans/19.jpeg'
-import j20 from '../Assets/men/Jeans/20.jpeg'
-import j21 from '../Assets/men/Jeans/21.jpeg'
-import j22 from '../Assets/men/Jeans/22.jpeg'
-import j23 from '../Assets/men/Jeans/23.jpeg'
-import j24 from '../Assets/men/Jeans/24.jpeg'
-import j25 from '../Assets/men/Jeans/25.jpeg'
-import j26 from '../Assets/men/Jeans/26.jpeg'
-import j27 from '../Assets/men/Jeans/27.jpeg'
-import j28 from '../Assets/men/Jeans/28.jpeg'
-import j29 from '../Assets/men/Jeans/29.jpeg'
-import j30 from '../Assets/men/Jeans/30.jpeg'
-import j31 from '../Assets/men/Jeans/31.jpeg'
-import j32 from '../Assets/men/Jeans/32.jpeg'
-import j33 from '../Assets/men/Jeans/33.jpeg'
-import j34 from '../Assets/men/Jeans/34.jpeg'
-import j35 from '../Assets/men/Jeans/35.jpeg'
-import j36 from '../Assets/men/Jeans/36.jpeg'
-import j37 from '../Assets/men/Jeans/37.jpeg'
-import j38 from '../Assets/men/Jeans/38.jpeg'
-import j39 from '../Assets/men/Jeans/39.jpeg'
-import j40 from '../Assets/men/Jeans/40.jpeg'
+import j3 from '../Assets/men/Jeans/3.png'
+import j4 from '../Assets/men/Jeans/4.png'
+import j5 from '../Assets/men/Jeans/5.png'
+import j6 from '../Assets/men/Jeans/6.png'
+import j7 from '../Assets/men/Jeans/7.png'
+import j8 from '../Assets/men/Jeans/8.png'
+import j9 from '../Assets/men/Jeans/9.png'
+import j10 from '../Assets/men/Jeans/10.png'
+import j11 from '../Assets/men/Jeans/11.png'
+import j12 from '../Assets/men/Jeans/12.png'
+import j13 from '../Assets/men/Jeans/13.png'
+import j14 from '../Assets/men/Jeans/14.png'
+import j15 from '../Assets/men/Jeans/15.png'
+import j16 from '../Assets/men/Jeans/16.png'
+import j17 from '../Assets/men/Jeans/17.png'
+import j18 from '../Assets/men/Jeans/18.png'
+import j19 from '../Assets/men/Jeans/19.png'
+import j20 from '../Assets/men/Jeans/20.png'
+import j21 from '../Assets/men/Jeans/21.png'
+import j22 from '../Assets/men/Jeans/22.png'
+import j23 from '../Assets/men/Jeans/23.png'
+import j24 from '../Assets/men/Jeans/24.png'
+import j25 from '../Assets/men/Jeans/25.png'
+import j26 from '../Assets/men/Jeans/26.png'
+import j27 from '../Assets/men/Jeans/27.png'
+import j28 from '../Assets/men/Jeans/28.png'
+import j29 from '../Assets/men/Jeans/29.png'
+import j30 from '../Assets/men/Jeans/30.png'
 // pant
-import p1 from '../Assets/men/Pant/1.jpeg'
-import p2 from '../Assets/men/Pant/2.jpeg'
-import p3 from '../Assets/men/Pant/3.jpeg'
-import p4 from '../Assets/men/Pant/4.jpeg'
-import p5 from '../Assets/men/Pant/5.jpeg'
-import p6 from '../Assets/men/Pant/6.jpeg'
-import p7 from '../Assets/men/Pant/7.jpeg'
-import p8 from '../Assets/men/Pant/8.jpeg'
-import p9 from '../Assets/men/Pant/9.jpeg'
-import p10 from '../Assets/men/Pant/10.jpeg'
-import p11 from '../Assets/men/Pant/11.jpeg'
-import p12 from '../Assets/men/Pant/12.jpeg'
-import p13 from '../Assets/men/Pant/13.jpeg'
-import p14 from '../Assets/men/Pant/14.jpeg'
-import p15 from '../Assets/men/Pant/15.jpeg'
-import p16 from '../Assets/men/Pant/16.jpeg'
-import p17 from '../Assets/men/Pant/17.jpeg'
-import p18 from '../Assets/men/Pant/18.jpeg'
-import p19 from '../Assets/men/Pant/19.jpeg'
-import p20 from '../Assets/men/Pant/20.jpeg'
-import p21 from '../Assets/men/Pant/21.jpeg'
-import p22 from '../Assets/men/Pant/22.jpeg'
-import p23 from '../Assets/men/Pant/23.jpg'
-import p24 from '../Assets/men/Pant/24.jpg'
-import p25 from '../Assets/men/Pant/25.jpg'
-import p26 from '../Assets/men/Pant/26.jpg'
-import p27 from '../Assets/men/Pant/27.jpg'
-import p28 from '../Assets/men/Pant/28.jpg'
-import p29 from '../Assets/men/Pant/29.jpg'
-import p30 from '../Assets/men/Pant/30.jpg'
-import p31 from '../Assets/men/Pant/31.jpg'
-import p32 from '../Assets/men/Pant/32.jpeg'
-import p33 from '../Assets/men/Pant/33.jpeg'
-import p34 from '../Assets/men/Pant/34.jpeg'
-import p35 from '../Assets/men/Pant/35.jpeg'
-import p36 from '../Assets/men/Pant/36.jpeg'
-import p37 from '../Assets/men/Pant/37.jpeg'
-import p38 from '../Assets/men/Pant/38.jpeg'
-import p39 from '../Assets/men/Pant/39.jpeg'
-
-
+import p1 from '../Assets/men/Pant/1.png'
+import p2 from '../Assets/men/Pant/2.png'
+import p3 from '../Assets/men/Pant/3.png'
+import p4 from '../Assets/men/Pant/4.png'
+import p5 from '../Assets/men/Pant/5.png'
+import p6 from '../Assets/men/Pant/6.png'
+import p7 from '../Assets/men/Pant/7.png'
+import p8 from '../Assets/men/Pant/8.png'
+import p9 from '../Assets/men/Pant/9.png'
+import p10 from '../Assets/men/Pant/10.png'
+import p11 from '../Assets/men/Pant/11.png'
+import p12 from '../Assets/men/Pant/12.png'
+import p13 from '../Assets/men/Pant/13.png'
+import p14 from '../Assets/men/Pant/14.png'
+import p15 from '../Assets/men/Pant/15.png'
+import p16 from '../Assets/men/Pant/16.png'
+import p17 from '../Assets/men/Pant/17.png'
+import p18 from '../Assets/men/Pant/18.png'
+import p19 from '../Assets/men/Pant/19.png'
+import p20 from '../Assets/men/Pant/20.png'
+import p21 from '../Assets/men/Pant/21.png'
+import p22 from '../Assets/men/Pant/22.png'
+import p23 from '../Assets/men/Pant/23.png'
+import p24 from '../Assets/men/Pant/24.png'
+import p25 from '../Assets/men/Pant/25.png'
 // lower
-import t1 from '../Assets/men/Track_pant/1.jpeg'
-import t2 from '../Assets/men/Track_pant/2.jpeg'
-import t3 from '../Assets/men/Track_pant/3.jpeg'
+import t1 from '../Assets/men/Track_pant/1.png'
+import t2 from '../Assets/men/Track_pant/2.png'
+import t3 from '../Assets/men/Track_pant/3.png'
 import t4 from '../Assets/men/Track_pant/4.png'
-import t5 from '../Assets/men/Track_pant/5.jpeg'
-import t6 from '../Assets/men/Track_pant/6.jpeg'
-import t7 from '../Assets/men/Track_pant/7.jpeg'
-import t8 from '../Assets/men/Track_pant/8.jpeg'
-import t9 from '../Assets/men/Track_pant/9.jpeg'
-import t10 from '../Assets/men/Track_pant/10.jpeg'
-import t11 from '../Assets/men/Track_pant/11.jpeg'
-import t12 from '../Assets/men/Track_pant/12.jpeg'
-import t13 from '../Assets/men/Track_pant/13.jpeg'
-import t14 from '../Assets/men/Track_pant/14.jpeg'
-import t15 from '../Assets/men/Track_pant/15.jpeg'
-import t16 from '../Assets/men/Track_pant/16.jpeg'
-import t17 from '../Assets/men/Track_pant/17.jpeg'
-import t18 from '../Assets/men/Track_pant/18.jpeg'
-import t19 from '../Assets/men/Track_pant/19.jpeg'
-import t20 from '../Assets/men/Track_pant/20.jpeg'
-import t21 from '../Assets/men/Track_pant/21.jpeg'
-import t22 from '../Assets/men/Track_pant/22.jpeg'
-import t23 from '../Assets/men/Track_pant/23.jpeg'
-import t24 from '../Assets/men/Track_pant/24.jpeg'
-import t25 from '../Assets/men/Track_pant/25.jpeg'
-import t26 from '../Assets/men/Track_pant/26.jpeg'
-import t27 from '../Assets/men/Track_pant/27.jpeg'
-import t28 from '../Assets/men/Track_pant/28.jpeg'
-import t29 from '../Assets/men/Track_pant/29.jpeg'
-import t30 from '../Assets/men/Track_pant/30.jpeg'
-import t31 from '../Assets/men/Track_pant/31.jpeg'
-import t32 from '../Assets/men/Track_pant/32.jpeg'
-import t33 from '../Assets/men/Track_pant/33.jpeg'
-import t34 from '../Assets/men/Track_pant/34.jpeg'
-import t35 from '../Assets/men/Track_pant/35.jpeg'
-import t36 from '../Assets/men/Track_pant/36.jpeg'
+import t5 from '../Assets/men/Track_pant/5.png'
+import t6 from '../Assets/men/Track_pant/6.png'
+import t7 from '../Assets/men/Track_pant/7.png'
+import t8 from '../Assets/men/Track_pant/8.png'
+import t9 from '../Assets/men/Track_pant/9.png'
+import t10 from '../Assets/men/Track_pant/10.png'
+import t11 from '../Assets/men/Track_pant/11.png'
+import t12 from '../Assets/men/Track_pant/12.png'
+import t13 from '../Assets/men/Track_pant/13.png'
+import t14 from '../Assets/men/Track_pant/14.png'
+import t15 from '../Assets/men/Track_pant/15.png'
+import t16 from '../Assets/men/Track_pant/16.png'
+import t17 from '../Assets/men/Track_pant/17.png'
+import t18 from '../Assets/men/Track_pant/18.png'
+import t19 from '../Assets/men/Track_pant/19.png'
+import t20 from '../Assets/men/Track_pant/20.png'
+import t21 from '../Assets/men/Track_pant/21.png'
+import t22 from '../Assets/men/Track_pant/22.png'
+import t23 from '../Assets/men/Track_pant/23.png'
+import t24 from '../Assets/men/Track_pant/24.png'
+import t25 from '../Assets/men/Track_pant/25.png'
 // Shirt
 import srt1 from '../Assets/men/Shirt/1.png'
-import srt2 from '../Assets/men/Shirt/2.jpeg'
-import srt3 from '../Assets/men/Shirt/3.jpeg'
-import srt4 from '../Assets/men/Shirt/4.jpeg'
-import srt5 from '../Assets/men/Shirt/5.jpeg'
-import srt6 from '../Assets/men/Shirt/6.jpeg'
-import srt7 from '../Assets/men/Shirt/7.jpeg'
-import srt8 from '../Assets/men/Shirt/8.jpeg'
-import srt9 from '../Assets/men/Shirt/9.jpeg'
-import srt10 from '../Assets/men/Shirt/10.jpeg'
-import srt11 from '../Assets/men/Shirt/11.jpeg'
-import srt12 from '../Assets/men/Shirt/12.jpeg'
-import srt13 from '../Assets/men/Shirt/13.jpeg'
-import srt14 from '../Assets/men/Shirt/14.jpeg'
-import srt15 from '../Assets/men/Shirt/15.jpeg'
-import srt16 from '../Assets/men/Shirt/16.jpg'
-import srt17 from '../Assets/men/Shirt/17.jpg'
-import srt18 from '../Assets/men/Shirt/18.jpg'
-import srt19 from '../Assets/men/Shirt/19.jpg'
-import srt20 from '../Assets/men/Shirt/20.jpg'
-import srt21 from '../Assets/men/Shirt/21.jpg'
-import srt22 from '../Assets/men/Shirt/22.jpg'
-import srt23 from '../Assets/men/Shirt/23.jpg'
-import srt24 from '../Assets/men/Shirt/24.jpg'
-import srt25 from '../Assets/men/Shirt/25.jpg'
-import srt26 from '../Assets/men/Shirt/26.jpg'
-import srt27 from '../Assets/men/Shirt/27.jpg'
-import srt28 from '../Assets/men/Shirt/28.jpg'
-import srt29 from '../Assets/men/Shirt/29.jpg'
-import srt30 from '../Assets/men/Shirt/30.jpg'
+import srt2 from '../Assets/men/Shirt/2.png'
+import srt3 from '../Assets/men/Shirt/3.png'
+import srt4 from '../Assets/men/Shirt/4.png'
+import srt5 from '../Assets/men/Shirt/5.png'
+import srt6 from '../Assets/men/Shirt/6.png'
+import srt7 from '../Assets/men/Shirt/7.png'
+import srt8 from '../Assets/men/Shirt/8.png'
+import srt9 from '../Assets/men/Shirt/9.png'
+import srt10 from '../Assets/men/Shirt/10.png'
+import srt11 from '../Assets/men/Shirt/11.png'
+import srt12 from '../Assets/men/Shirt/12.png'
+import srt13 from '../Assets/men/Shirt/13.png'
+import srt14 from '../Assets/men/Shirt/14.png'
+import srt15 from '../Assets/men/Shirt/15.png'
+import srt16 from '../Assets/men/Shirt/16.png'
+import srt17 from '../Assets/men/Shirt/17.png'
+import srt18 from '../Assets/men/Shirt/18.png'
+import srt19 from '../Assets/men/Shirt/19.png'
+import srt20 from '../Assets/men/Shirt/20.png'
+import srt21 from '../Assets/men/Shirt/21.png'
+import srt22 from '../Assets/men/Shirt/22.png'
+import srt23 from '../Assets/men/Shirt/23.png'
+import srt24 from '../Assets/men/Shirt/24.png'
+import srt25 from '../Assets/men/Shirt/25.png'
+import srt26 from '../Assets/men/Shirt/26.png'
+import srt27 from '../Assets/men/Shirt/27.png'
+import srt28 from '../Assets/men/Shirt/28.png'
+import srt29 from '../Assets/men/Shirt/29.png'
+import srt30 from '../Assets/men/Shirt/30.png'
 // t-shirt
 import tsm1 from '../Assets/men/T_shirt/1.png'
-import tsm2 from  '../Assets/men/T_shirt/2.jpeg'
-import tsm3 from '../Assets/men/T_shirt/3.jpeg'
-import tsm4 from '../Assets/men/T_shirt/4.jpeg'
-import tsm5 from '../Assets/men/T_shirt/5.jpeg'
-import tsm6 from '../Assets/men/T_shirt/6.jpeg'
-import tsm7 from '../Assets/men/T_shirt/7.jpeg'
-import tsm8 from '../Assets/men/T_shirt/8.jpeg'
-import tsm9 from '../Assets/men/T_shirt/9.jpeg'
-import tsm10 from '../Assets/men/T_shirt/10.jpeg'
-import tsm11 from '../Assets/men/T_shirt/11.jpeg'
-import tsm12 from '../Assets/men/T_shirt/12.jpeg'
-import tsm13 from '../Assets/men/T_shirt/13.jpeg'
-import tsm14 from '../Assets/men/T_shirt/14.jpeg'
-import tsm15 from '../Assets/men/T_shirt/15.jpeg'
-import tsm16 from '../Assets/men/T_shirt/16.jpeg'
-import tsm17 from '../Assets/men/T_shirt/17.jpeg'
-import tsm18 from '../Assets/men/T_shirt/18.jpeg'
-import tsm19 from '../Assets/men/T_shirt/19.jpeg'
-import tsm20 from '../Assets/men/T_shirt/20.jpeg'
-import tsm21 from '../Assets/men/T_shirt/21.jpeg'
-import tsm22 from '../Assets/men/T_shirt/22.jpeg'
-import tsm23 from '../Assets/men/T_shirt/23.jpeg'
-import tsm24 from '../Assets/men/T_shirt/24.jpeg'
-import tsm25 from '../Assets/men/T_shirt/25.jpeg'
-import tsm26 from '../Assets/men/T_shirt/26.jpeg'
-import tsm27 from '../Assets/men/T_shirt/27.jpeg'
-import tsm28 from '../Assets/men/T_shirt/28.jpeg'
-import tsm29 from '../Assets/men/T_shirt/29.jpeg'
-import tsm30 from '../Assets/men/T_shirt/30.jpeg'
-import tsm31 from '../Assets/men/T_shirt/31.jpeg'
-import tsm32 from '../Assets/men/T_shirt/32.jpeg'
-import tsm33 from '../Assets/men/T_shirt/33.jpg'
-import tsm34 from '../Assets/men/T_shirt/34.jpg'
-import tsm35 from '../Assets/men/T_shirt/35.jpg'
-import tsm36 from '../Assets/men/T_shirt/36.jpg'
-import tsm37 from '../Assets/men/T_shirt/37.jpg'
-
+import tsm2 from  '../Assets/men/T_shirt/2.png'
+import tsm3 from '../Assets/men/T_shirt/3.png'
+import tsm4 from '../Assets/men/T_shirt/4.png'
+import tsm5 from '../Assets/men/T_shirt/5.png'
+import tsm6 from '../Assets/men/T_shirt/6.png'
+import tsm7 from '../Assets/men/T_shirt/7.png'
+import tsm8 from '../Assets/men/T_shirt/8.png'
+import tsm9 from '../Assets/men/T_shirt/9.png'
+import tsm10 from '../Assets/men/T_shirt/10.png'
+import tsm11 from '../Assets/men/T_shirt/11.png'
+import tsm12 from '../Assets/men/T_shirt/12.png'
+import tsm13 from '../Assets/men/T_shirt/13.png'
+import tsm14 from '../Assets/men/T_shirt/14.png'
+import tsm15 from '../Assets/men/T_shirt/15.png'
+import tsm16 from '../Assets/men/T_shirt/16.png'
+import tsm17 from '../Assets/men/T_shirt/17.png'
+import tsm18 from '../Assets/men/T_shirt/18.png'
+import tsm19 from '../Assets/men/T_shirt/19.png'
+import tsm20 from '../Assets/men/T_shirt/20.png'
+import tsm21 from '../Assets/men/T_shirt/21.png'
+import tsm22 from '../Assets/men/T_shirt/22.png'
+import tsm23 from '../Assets/men/T_shirt/23.png'
+import tsm24 from '../Assets/men/T_shirt/24.png'
+import tsm25 from '../Assets/men/T_shirt/25.png'
+import tsm26 from '../Assets/men/T_shirt/26.png'
+import tsm27 from '../Assets/men/T_shirt/27.png'
+import tsm28 from '../Assets/men/T_shirt/28.png'
+import tsm29 from '../Assets/men/T_shirt/29.png'
+import tsm30 from '../Assets/men/T_shirt/30.png'
 // Coat-Pant
+import c1 from '../Assets/men/Coat_pant/1.png'
+import c2 from '../Assets/men/Coat_pant/2.png'
+import c3 from '../Assets/men/Coat_pant/3.png'
+import c4 from '../Assets/men/Coat_pant/4.png'
+import c5 from '../Assets/men/Coat_pant/5.png'
+import c6 from '../Assets/men/Coat_pant/6.png'
+import c7 from '../Assets/men/Coat_pant/7.png'
+import c8 from '../Assets/men/Coat_pant/8.png'
+import c9 from '../Assets/men/Coat_pant/9.png'
+import c10 from '../Assets/men/Coat_pant/10.png'
+import c11 from '../Assets/men/Coat_pant/11.png'
+import c12 from '../Assets/men/Coat_pant/12.png'
+import c13 from '../Assets/men/Coat_pant/13.png'
+import c14 from '../Assets/men/Coat_pant/14.png'
+import c15 from '../Assets/men/Coat_pant/15.png'
+import c16 from '../Assets/men/Coat_pant/16.png'
+import c17 from '../Assets/men/Coat_pant/17.png'
+import c18 from '../Assets/men/Coat_pant/18.png'
+import c19 from '../Assets/men/Coat_pant/19.png'
+import c20 from '../Assets/men/Coat_pant/20.png'
+import c21 from '../Assets/men/Coat_pant/21.png'
+import c22 from '../Assets/men/Coat_pant/22.png'
+import c23 from '../Assets/men/Coat_pant/23.png'
+import c24 from '../Assets/men/Coat_pant/24.png'
+import c25 from '../Assets/men/Coat_pant/25.png'
 
 // Hoodie
 let hoodie=[
@@ -284,11 +260,11 @@ let hoodie=[
         review:1256, 
         size:"M , L , XL",
     },
-      {
-        id:44,
-        brand:"Mufti",
+     {
+        id:40,
+        brand:"Nike",
         name:"Men Full Sleeve Solid Hooded Sweatshirt",
-        image:h44,
+        image:h40,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -792,54 +768,6 @@ let allHoodie=[
         review:1256, 
         size:"M , L , XL",
     },
-    {
-        id:41,
-        brand:"Mufti",
-        name:"Men Full Sleeve Solid Hooded Sweatshirt",
-        image:h41,
-        new_price:"₹1379",
-        old_price:"₹2299",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"M , L , XL",
-    },
-    {
-        id:42,
-        brand:"Mufti",
-        name:"Men Full Sleeve Solid Hooded Sweatshirt",
-        image:h42,
-        new_price:"₹1379",
-        old_price:"₹2299",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"M , L , XL",
-    },
-    {
-        id:43,
-        brand:"Mufti",
-        name:"Men Full Sleeve Solid Hooded Sweatshirt",
-        image:h43,
-        new_price:"₹1379",
-        old_price:"₹2299",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"M , L , XL",
-    },
-    {
-        id:44,
-        brand:"Mufti",
-        name:"Men Full Sleeve Solid Hooded Sweatshirt",
-        image:h44,
-        new_price:"₹1379",
-        old_price:"₹2299",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"M , L , XL",
-    },
 
 ]
 export {allHoodie}
@@ -882,10 +810,10 @@ let jeans=[
         size:"30 , 32 , 34 , 36",
     },
    {
-        id:36,
+        id:30,
         brand:"Mufti",
         name:"Men Slim Mid Rise Dark Jeans",
-        image:j36,
+        image:j30,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -1269,126 +1197,6 @@ let allJeans=[
         review:1256, 
         size:"30 , 32 , 34 , 36",
     },
-    {
-        id:31,
-        brand:"Cobb Italy",
-        name:"Men Slim Mid Rise Dark Jeans",
-        image:j31,
-        new_price:"₹1379",
-        old_price:"₹2299",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    },
-    {
-        id:32,
-        brand:"Cobb Italy",
-        name:"Men Slim Mid Rise Dark Jeans",
-        image:j32,
-        new_price:"₹1379",
-        old_price:"₹2299",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    },
-    {
-        id:33,
-        brand:"Cobb Italy",
-        name:"Men Slim Mid Rise Dark Jeans",
-        image:j33,
-        new_price:"₹1379",
-        old_price:"₹2299",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    },
-    {
-        id:34,
-        brand:"Cobb Italy",
-        name:"Men Slim Mid Rise Dark Jeans",
-        image:j34,
-        new_price:"₹1379",
-        old_price:"₹2299",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    },
-    {
-        id:35,
-        brand:"Cobb Italy",
-        name:"Men Slim Mid Rise Dark Jeans",
-        image:j35,
-        new_price:"₹1379",
-        old_price:"₹2299",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    },
-    {
-        id:36,
-        brand:"Mufti",
-        name:"Men Slim Mid Rise Dark Jeans",
-        image:j36,
-        new_price:"₹1379",
-        old_price:"₹2299",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    },
-    {
-        id:37,
-        brand:"Mufti",
-        name:"Men Slim Mid Rise Dark Jeans",
-        image:j37,
-        new_price:"₹1379",
-        old_price:"₹2299",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    },
-    {
-        id:38,
-        brand:"Mufti",
-        name:"Men Slim Mid Rise Dark Jeans",
-        image:j38,
-        new_price:"₹1379",
-        old_price:"₹2299",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    },
-    {
-        id:39,
-        brand:"Mufti",
-        name:"Men Slim Mid Rise Dark Jeans",
-        image:j39,
-        new_price:"₹1379",
-        old_price:"₹2299",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    },
-    {
-        id:40,
-        brand:"Mufti",
-        name:"Men Slim Mid Rise Dark Jeans",
-        image:j40,
-        new_price:"₹1379",
-        old_price:"₹2299",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    },
 ]
 export {allJeans}
 // Pant
@@ -1430,10 +1238,10 @@ let pant=[
         size:"30 , 32 , 34 , 36",
     },
      {
-        id:36,
+        id:25,
         brand:"Mufti",
         name:"Men Regular Fit Cotton Blend Trousers",
-        image:p36,
+        image:p25,
         new_price:"₹1199",
         old_price:"₹1399",
         offer:"40% off",
@@ -1757,175 +1565,6 @@ let allPant=[
         review:1256, 
         size:"30 , 32 , 34 , 36",
     },
-    {
-        id:26,
-        brand:"Cobb Italy",
-        name:"Men Regular Fit Cotton Blend Trousers",
-        image:p26,
-        new_price:"₹1199",
-        old_price:"₹1399",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    },
-    {
-        id:27,
-        brand:"Cobb Italy",
-        name:"Men Regular Fit Cotton Blend Trousers",
-        image:p27,
-        new_price:"₹1199",
-        old_price:"₹1399",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    },
-    {
-        id:28,
-        brand:"Cobb Italy",
-        name:"Men Regular Fit Cotton Blend Trousers",
-        image:p28,
-        new_price:"₹1199",
-        old_price:"₹1399",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    },
-    {
-        id:29,
-        brand:"Cobb Italy",
-        name:"Men Regular Fit Cotton Blend Trousers",
-        image:p29,
-        new_price:"₹1199",
-        old_price:"₹1399",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    },
-    {
-        id:30,
-        brand:"Cobb Italy",
-        name:"Men Regular Fit Cotton Blend Trousers",
-        image:p30,
-        new_price:"₹1199",
-        old_price:"₹1399",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    },
-    {
-        id:31,
-        brand:"Cobb Italy",
-        name:"Men Regular Fit Cotton Blend Trousers",
-        image:p31,
-        new_price:"₹1199",
-        old_price:"₹1399",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    },
-    {
-        id:32,
-        brand:"Cobb Italy",
-        name:"Men Regular Fit Cotton Blend Trousers",
-        image:p32,
-        new_price:"₹1199",
-        old_price:"₹1399",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    },
-    {
-        id:33,
-        brand:"Cobb Italy",
-        name:"Men Regular Fit Cotton Blend Trousers",
-        image:p33,
-        new_price:"₹1199",
-        old_price:"₹1399",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    },
-    {
-        id:34,
-        brand:"Cobb Italy",
-        name:"Men Regular Fit Cotton Blend Trousers",
-        image:p34,
-        new_price:"₹1199",
-        old_price:"₹1399",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    },
-    {
-        id:35,
-        brand:"Cobb Italy",
-        name:"Men Regular Fit Cotton Blend Trousers",
-        image:p35,
-        new_price:"₹1199",
-        old_price:"₹1399",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    },
-    {
-        id:36,
-        brand:"Mufti",
-        name:"Men Regular Fit Cotton Blend Trousers",
-        image:p36,
-        new_price:"₹1199",
-        old_price:"₹1399",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    },
-    {
-        id:37,
-        brand:"Mufti",
-        name:"Men Regular Fit Cotton Blend Trousers",
-        image:p37,
-        new_price:"₹1199",
-        old_price:"₹1399",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    },
-    {
-        id:38,
-        brand:"Mufti",
-        name:"Men Regular Fit Cotton Blend Trousers",
-        image:p38,
-        new_price:"₹1199",
-        old_price:"₹1399",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    },
-    {
-        id:39,
-        brand:"Mufti",
-        name:"Men Regular Fit Cotton Blend Trousers",
-        image:p39,
-        new_price:"₹1199",
-        old_price:"₹1399",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    },
-
 ]
 export {allPant}
 // Lower
@@ -1967,10 +1606,10 @@ let lower=[
         size:"30 , 32 , 34 ",
     },
    {
-        id:36,
+        id:25,
         brand:"Nike",
         name:"Men Solid Track-Pants",
-        image:t36,
+        image:t25,
         new_price:"₹799",
         old_price:"₹1099",
         offer:"40% off",
@@ -2294,138 +1933,7 @@ let allLower=[
         review:1256, 
         size:"30 , 32 , 34 ",
     },
-    {
-        id:26,
-        brand:"Cobb Italy",
-        name:"Men Solid Track-Pants",
-        image:t26,
-        new_price:"₹799",
-        old_price:"₹1099",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 ",
-    },
-    {
-        id:27,
-        brand:"Cobb Italy",
-        name:"Men Solid Track-Pants",
-        image:t27,
-        new_price:"₹799",
-        old_price:"₹1099",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 ",
-    },
-    {
-        id:28,
-        brand:"Cobb Italy",
-        name:"Men Solid Track-Pants",
-        image:t28,
-        new_price:"₹799",
-        old_price:"₹1099",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 ",
-    },
-    {
-        id:29,
-        brand:"Cobb Italy",
-        name:"Men Solid Track-Pants",
-        image:t29,
-        new_price:"₹799",
-        old_price:"₹1099",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 ",
-    },
-    {
-        id:30,
-        brand:"Cobb Italy",
-        name:"Men Solid Track-Pants",
-        image:t30,
-        new_price:"₹799",
-        old_price:"₹1099",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 ",
-    },
-    {
-        id:31,
-        brand:"Cobb Italy",
-        name:"Men Solid Track-Pants",
-        image:t31,
-        new_price:"₹799",
-        old_price:"₹1099",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 ",
-    },
-    {
-        id:32,
-        brand:"Cobb Italy",
-        name:"Men Solid Track-Pants",
-        image:t32,
-        new_price:"₹799",
-        old_price:"₹1099",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 ",
-    },
-    {
-        id:33,
-        brand:"Cobb Italy",
-        name:"Men Solid Track-Pants",
-        image:t33,
-        new_price:"₹799",
-        old_price:"₹1099",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 ",
-    },
-    {
-        id:34,
-        brand:"Cobb Italy",
-        name:"Men Solid Track-Pants",
-        image:t34,
-        new_price:"₹799",
-        old_price:"₹1099",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 ",
-    },
-    {
-        id:35,
-        brand:"Cobb Italy",
-        name:"Men Solid Track-Pants",
-        image:t35,
-        new_price:"₹799",
-        old_price:"₹1099",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 ",
-    },
-    {
-        id:36,
-        brand:"Nike",
-        name:"Men Solid Track-Pants",
-        image:t36,
-        new_price:"₹799",
-        old_price:"₹1099",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 ",
-    },
+  
 ]
 export {allLower}
 // Shirt
@@ -2908,10 +2416,10 @@ let t_shirt=[
         size:"M , L , XL",
     },
            {
-        id:36,
+        id:29,
         brand:"Nike",
         name:"Men Slim Fit Solid Shirt",
-        image:tsm36,
+        image:tsm29,
         new_price:"₹1499",
         old_price:"₹1699",
         offer:"12% off",
@@ -3282,91 +2790,376 @@ let allT_shirt=[
         rating:"4.3★",
         review:1256, 
         size:"M , L , XL",
-    },
-    {
-        id:31,
-        brand:"Mufti",
-        name:"Men Slim Fit Solid Shirt",
-        image:tsm31,
-        new_price:"₹1499",
-        old_price:"₹1699",
+    }
+]
+export {allT_shirt}
+// Coat-Pant
+let coat_Pant=[
+     {
+        id:1,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:tsm1,
+        new_price:"₹4499",
+        old_price:"₹4999",
         offer:"12% off",
         rating:"4.3★",
         review:1256, 
-        size:"M , L , XL",
+        size:"36 , 38 , 40",
     },
-    {
-        id:32,
-        brand:"Mufti",
-        name:"Men Slim Fit Solid Shirt",
-        image:tsm32,
-        new_price:"₹1499",
-        old_price:"₹1699",
+     {
+        id:2,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:tsm1,
+        new_price:"₹4499",
+        old_price:"₹4999",
         offer:"12% off",
         rating:"4.3★",
         review:1256, 
-        size:"M , L , XL",
+        size:"36 , 38 , 40",
     },
-    {
-        id:33,
-        brand:"Nike",
-        name:"Men Slim Fit Solid Shirt",
-        image:tsm33,
-        new_price:"₹1499",
-        old_price:"₹1699",
+     {
+        id:3,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:tsm1,
+        new_price:"₹4499",
+        old_price:"₹4999",
         offer:"12% off",
         rating:"4.3★",
         review:1256, 
-        size:"M , L , XL",
+        size:"36 , 38 , 40",
     },
-    {
-        id:34,
-        brand:"Nike",
-        name:"Men Slim Fit Solid Shirt",
-        image:tsm34,
-        new_price:"₹1499",
-        old_price:"₹1699",
+     {
+        id:4,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:tsm1,
+        new_price:"₹4499",
+        old_price:"₹4999",
         offer:"12% off",
         rating:"4.3★",
         review:1256, 
-        size:"M , L , XL",
+        size:"36 , 38 , 40",
     },
-    {
-        id:35,
-        brand:"Nike",
-        name:"Men Slim Fit Solid Shirt",
-        image:tsm35,
-        new_price:"₹1499",
-        old_price:"₹1699",
+     {
+        id:5,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:tsm1,
+        new_price:"₹4499",
+        old_price:"₹4999",
         offer:"12% off",
         rating:"4.3★",
         review:1256, 
-        size:"M , L , XL",
-    },
-    {
-        id:36,
-        brand:"Nike",
-        name:"Men Slim Fit Solid Shirt",
-        image:tsm36,
-        new_price:"₹1499",
-        old_price:"₹1699",
-        offer:"12% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"M , L , XL",
-    },
-    {
-        id:37,
-        brand:"Nike",
-        name:"Men Slim Fit Solid Shirt",
-        image:tsm37,
-        new_price:"₹1499",
-        old_price:"₹1699",
-        offer:"12% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"M , L , XL",
+        size:"36 , 38 , 40",
     },
 
 ]
-export {allT_shirt}
+export {coat_Pant}
+
+let allCoat_Pant=[
+     {
+        id:1,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:c1,
+        new_price:"₹4499",
+        old_price:"₹4999",
+        offer:"12% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"36 , 38 , 40",
+    },
+     {
+        id:2,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:c2,
+        new_price:"₹4499",
+        old_price:"₹4999",
+        offer:"12% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"36 , 38 , 40",
+    },
+     {
+        id:3,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:c3,
+        new_price:"₹4499",
+        old_price:"₹4999",
+        offer:"12% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"36 , 38 , 40",
+    },
+     {
+        id:4,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:c4,
+        new_price:"₹4499",
+        old_price:"₹4999",
+        offer:"12% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"36 , 38 , 40",
+    },
+     {
+        id:5,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:c5,
+        new_price:"₹4499",
+        old_price:"₹4999",
+        offer:"12% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"36 , 38 , 40",
+    },
+    {
+        id:6,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:c6,
+        new_price:"₹4499",
+        old_price:"₹4999",
+        offer:"12% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"36 , 38 , 40",
+    },
+     {
+        id:7,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:c7,
+        new_price:"₹4499",
+        old_price:"₹4999",
+        offer:"12% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"36 , 38 , 40",
+    },
+     {
+        id:8,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:c8,
+        new_price:"₹4499",
+        old_price:"₹4999",
+        offer:"12% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"36 , 38 , 40",
+    },
+     {
+        id:9,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:c9,
+        new_price:"₹4499",
+        old_price:"₹4999",
+        offer:"12% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"36 , 38 , 40",
+    },
+     {
+        id:10,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:c10,
+        new_price:"₹4499",
+        old_price:"₹4999",
+        offer:"12% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"36 , 38 , 40",
+    },
+ {
+        id:11,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:c11,
+        new_price:"₹4499",
+        old_price:"₹4999",
+        offer:"12% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"36 , 38 , 40",
+    },
+     {
+        id:12,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:c12,
+        new_price:"₹4499",
+        old_price:"₹4999",
+        offer:"12% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"36 , 38 , 40",
+    },
+     {
+        id:13,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:c13,
+        new_price:"₹4499",
+        old_price:"₹4999",
+        offer:"12% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"36 , 38 , 40",
+    },
+     {
+        id:14,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:c14,
+        new_price:"₹4499",
+        old_price:"₹4999",
+        offer:"12% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"36 , 38 , 40",
+    },
+     {
+        id:15,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:c15,
+        new_price:"₹4499",
+        old_price:"₹4999",
+        offer:"12% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"36 , 38 , 40",
+    },
+ {
+        id:16,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:c16,
+        new_price:"₹4499",
+        old_price:"₹4999",
+        offer:"12% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"36 , 38 , 40",
+    },
+     {
+        id:17,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:c17,
+        new_price:"₹4499",
+        old_price:"₹4999",
+        offer:"12% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"36 , 38 , 40",
+    },
+     {
+        id:18,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:c18,
+        new_price:"₹4499",
+        old_price:"₹4999",
+        offer:"12% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"36 , 38 , 40",
+    },
+     {
+        id:19,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:c19,
+        new_price:"₹4499",
+        old_price:"₹4999",
+        offer:"12% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"36 , 38 , 40",
+    },
+     {
+        id:20,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:c20,
+        new_price:"₹4499",
+        old_price:"₹4999",
+        offer:"12% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"36 , 38 , 40",
+    },
+ {
+        id:21,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:c21,
+        new_price:"₹4499",
+        old_price:"₹4999",
+        offer:"12% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"36 , 38 , 40",
+    },
+     {
+        id:22,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:c22,
+        new_price:"₹4499",
+        old_price:"₹4999",
+        offer:"12% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"36 , 38 , 40",
+    },
+     {
+        id:23,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:c23,
+        new_price:"₹4499",
+        old_price:"₹4999",
+        offer:"12% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"36 , 38 , 40",
+    },
+     {
+        id:24,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:c24,
+        new_price:"₹4499",
+        old_price:"₹4999",
+        offer:"12% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"36 , 38 , 40",
+    },
+     {
+        id:25,
+        brand:"METRONAUT",
+        name:"Men 3 piece suit for men Solid Suit",
+        image:c25,
+        new_price:"₹4499",
+        old_price:"₹4999",
+        offer:"12% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"36 , 38 , 40",
+    },
+
+]
+export {allCoat_Pant}
