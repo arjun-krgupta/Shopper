@@ -6,7 +6,7 @@ import sm1 from "../Assets/Mobile/Samsung/samsung galaxy A35 5G.jpg";
 import p1 from "../Assets/Mobile/Poco/Poco m6 pro.jpg";
 import o1 from "../Assets/Mobile/Oppo/oppo A38.jpg";
 // laptop
-import hp1 from "../Assets/Laptop/hp/HP 250 G9 Intel Core i3.jpeg";
+import hp1 from "../Assets/Laptop/Hp/HP 250 G9 Intel Core i3.jpeg";
 import i1 from '../Assets/Laptop/Apple/i1.jpeg'
 import acer1 from '../Assets/Laptop/Acer/ac1.jpeg'
 import lv1 from '../Assets/Laptop/Lenovo/Lenovo AMD Ryzen 3 Quad Core 7330U.jpeg'
