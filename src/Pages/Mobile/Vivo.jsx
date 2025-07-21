@@ -1,51 +1,12 @@
 
 import sl1 from "../../Assets/Slider/1.jpg";
 import sl2 from "../../Assets/Slider/2.jpg";
-import m1 from "../../Assets/Icon/realme.png";
-import m2 from "../../Assets/Icon/iphone.png";
-import m3 from "../../Assets/Icon/oppo.png";
-import m4 from "../../Assets/Icon/poco.png";
-import m5 from "../../Assets/Icon/samsung.jpg";
-import m6 from "../../Assets/Icon/vivo.png";
-import { useNavigate } from "react-router-dom";
 import { allVivo } from "../../Constant/allMobile";
 
-const mobileData = [
-  { name: "realme", img: m1 },
-  { name: "iphone", img: m2 },
-  { name: "oppo", img: m3 },
-  { name: "poco", img: m4 },
-  { name: "samsung", img: m5 },
-  { name: "vivo", img: m6 },
-];
-
 function Vivo() {
-  const redirect = useNavigate();
   return (
     <>
-      {/* Mobile icon */}
-      <div className="flex justify-center items-center gap-2 w-full mt-2">
-        {mobileData.map((brand, index) => (
-          <div
-            key={index}
-            className="w-11 sm:w-16 md:w-20 cursor-pointer sm:me-2 lg:me-7"
-            onClick={() => {
-              redirect(`/${brand.name}`);
-            }}
-          >
-            <img
-              src={brand.img}
-              alt={brand.name}
-              className="max-w-full h-auto rounded-full"
-            />
-          </div>
-        ))}
-      </div>
-
-      <div className="w-full h-auto">
-        <h1 className="font-bold text-4xl mt-3 mb-1 text-center">
-          Vivo Phones
-        </h1>
+      <div className="w-full h-auto mt-1">
         <img src={sl1} alt="" className="max-w-100 h-auto" />
         <img src={sl2} alt="" className="max-w-100 h-auto" />
       </div>

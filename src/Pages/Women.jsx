@@ -75,7 +75,7 @@ function Women() {
         </div>
         {/* Lehenga*/}
         <hr className="w-full" />
-        <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-3">
+        <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-3 py-2">
           {lahenga.map((val, i) => (
             <div
               className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48  hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2 "
@@ -120,7 +120,7 @@ function Women() {
         </div>
         {/* Gown */}
         <hr className="w-full" />
-        <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-3">
+        <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-3 py-2">
           {gown.map((val, i) => (
             <div
               className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48  hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2"
@@ -165,7 +165,7 @@ function Women() {
         </div>
         {/* One Piece */}
         <hr className="w-full" />
-        <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-3">
+        <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-3 py-2">
           {one_piece.map((val, i) => (
             <div
               className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48  hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2"
@@ -210,7 +210,7 @@ function Women() {
         </div>
         {/* Salwar Suit */}
         <hr className="w-full" />
-        <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-3">
+        <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-3 py-2">
           {suit_salwar.map((val, i) => (
             <div
               className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48  hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2"
@@ -255,7 +255,7 @@ function Women() {
         </div>
         {/* Suit */}
         <hr className="w-full" />
-        <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-3">
+        <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-3 py-2">
           {suit.map((val, i) => (
             <div
               className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48  hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2"
@@ -300,7 +300,7 @@ function Women() {
         </div>
         {/* T-Shirt */}
         <hr className="w-full" />
-        <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-3">
+        <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-3 py-2">
           {tshirt.map((val, i) => (
             <div
               className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48  hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2"

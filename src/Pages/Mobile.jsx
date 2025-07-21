@@ -132,7 +132,7 @@ function Mobile() {
         </div>
         <hr className="w-full" />
         {/* Realme */}
-        <div className="flex lg:justify-center gap-3 overflow-x-scroll webkit w-full my-3 px-3">
+        <div className="flex lg:justify-center gap-3 overflow-x-scroll webkit w-full my-3 px-3 py-2">
           {realme.map((val, i) => (
             <div
               className="flex flex-col items-center gap-2 w-36 sm:w-40 px-2 hover:rounded hover:shadow-xl hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2 "
@@ -170,10 +170,10 @@ function Mobile() {
           </Link>
         </div>
         <hr className="w-full" />
-        <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
+        <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-3 px-3 py-2">
           {vivo.map((val, i) => (
             <div
-              className="flex flex-col items-center gap-2 w-36 sm:w-40 px-2 hover:rounded hover:shadow-xl hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2 "
+              className="flex flex-col items-center gap-2 w-36 sm:w-40 px-2 hover:rounded hover:shadow-xl hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2  "
               key={i}
             >
               <img src={val.image} alt="" className="max-w-full h-auto" />
@@ -207,10 +207,10 @@ function Mobile() {
           </Link>
         </div>
         <hr className="w-full" />
-        <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
+        <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-3 px-3 py-2">
           {samsung.map((val, i) => (
             <div
-              className="flex flex-col items-center gap-2 w-36 sm:w-40 px-2 hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2 "
+              className="flex flex-col items-center gap-2 w-36 sm:w-40 px-2 hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2  "
               key={i}
             >
               <img src={val.image} alt="" className="max-w-full h-auto" />
@@ -244,10 +244,10 @@ function Mobile() {
           </Link>
         </div>
         <hr className="w-full" />
-        <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
+        <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-3 px-3 py-2">
           {poco.map((val, i) => (
             <div
-              className="flex flex-col items-center gap-2 w-36 sm:w-40 px-2 hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2"
+              className="flex flex-col items-center gap-2 w-36 sm:w-40 px-2 hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2 "
               key={i}
             >
               <img src={val.image} alt="" className="max-w-full h-auto" />
@@ -281,10 +281,10 @@ function Mobile() {
           </Link>
         </div>
         <hr className="w-full" />
-        <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
+        <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-3 px-3 py-2">
           {oppo.map((val, i) => (
             <div
-              className="flex flex-col items-center gap-2 w-36 sm:w-40 px-2 hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2"
+              className="flex flex-col items-center gap-2 w-36 sm:w-40 px-2 hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2 "
               key={i}
             >
               <img src={val.image} alt="" className="max-w-full h-auto" />
@@ -318,10 +318,10 @@ function Mobile() {
           </Link>
         </div>
         <hr className="w-full" />
-        <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
+        <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-3 px-3 py-2">
           {iphone.map((val, i) => (
             <div
-              className="flex flex-col items-center gap-2 w-36 sm:w-40 px-2 hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2"
+              className="flex flex-col items-center gap-2 w-36 sm:w-40 px-2 hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2 "
               key={i}
             >
               <img src={val.image} alt="" className="max-w-full h-auto " />

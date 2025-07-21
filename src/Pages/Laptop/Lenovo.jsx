@@ -1,46 +1,13 @@
 
 import laptop_slider from "../../Assets/Slider/laptop slider.jpg";
-// import hp from "../../Assets/Icon/hp.jpg";
-// import asus from "../../Assets/Icon/asus.jpg";
-// import dell from "../../Assets/Icon/dell.jpg";
-// import lenovo from "../../Assets/Icon/lenovo.jpg";
-// import apple from "../../Assets/Icon/apple.jpg";
-// import acer from "../../Assets/Icon/acer.jpg";
-
 import { allLenovo } from "../../Constant/allLaptop";
-
-// const brandData = [
-//   { name: "hp", img: hp },
-//   { name: "asus", img: asus },
-//   { name: "dell", img: dell },
-//   { name: "lenovo", img: lenovo },
-//   { name: "apple", img: apple },
-//   { name: "acer", img: acer },
-// ];
 
 function Lenovo() {
 
   return (
     <>
-      {/* laptop Brands */}
-      {/* <div className="flex justify-center items-center gap-2 w-full mt-3">
-        {brandData.map((brand, index) => (
-          <div
-            key={index}
-            className="w-14 sm:w-24 md:w-28 lg:w-32 cursor-pointer sm:me-2 lg:me-7 sm:hover:scale-[1.05] sm:hover:transition"
-            onClick={() => redirect(`/${brand.name}`)}
-          >
-            <img
-              src={brand.img}
-              alt={brand.name}
-              className="max-w-full h-auto"
-            />
-          </div>
-        ))}
-      </div> */}
-
       {/* Banner */}
-      <div className="w-100 h-auto mt-3">
+      <div className="w-100 h-auto mt-1">
         <img src={laptop_slider} alt="" className="max-w-100 h-auto" />
       </div>
       {/* lenovo laptops content */}

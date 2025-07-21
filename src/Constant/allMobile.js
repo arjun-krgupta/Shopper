@@ -90,7 +90,6 @@ import o13 from '../Assets/Mobile/Oppo/oppo A79.jpg'
 import o14 from '../Assets/Mobile/Oppo/oppo A59.jpg'
 import o15 from '../Assets/Mobile/Oppo/oppo A17.jpg'
 // Iphone
-
 import a1 from '../Assets/Mobile/Iphone/apple iphone 15.jpg'
 import a2 from '../Assets/Mobile/Iphone/apple iphone 14 plus.jpg'
 import a3 from '../Assets/Mobile/Iphone/apple iphone 14 plus pink.jpg'

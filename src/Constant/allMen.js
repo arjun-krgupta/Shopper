@@ -1,3 +1,4 @@
+// Hoodie
 import h1 from '../Assets/men/Hoodie/1.png'
 import h2 from '../Assets/men/Hoodie/2.png'
 import h3 from '../Assets/men/Hoodie/3.png'
@@ -151,7 +152,6 @@ import srt26 from '../Assets/men/Shirt/26.png'
 import srt27 from '../Assets/men/Shirt/27.png'
 import srt28 from '../Assets/men/Shirt/28.png'
 import srt29 from '../Assets/men/Shirt/29.png'
-import srt30 from '../Assets/men/Shirt/30.png'
 // t-shirt
 import tsm1 from '../Assets/men/T_shirt/1.png'
 import tsm2 from  '../Assets/men/T_shirt/2.png'
@@ -182,7 +182,6 @@ import tsm26 from '../Assets/men/T_shirt/26.png'
 import tsm27 from '../Assets/men/T_shirt/27.png'
 import tsm28 from '../Assets/men/T_shirt/28.png'
 import tsm29 from '../Assets/men/T_shirt/29.png'
-import tsm30 from '../Assets/men/T_shirt/30.png'
 // Coat-Pant
 import c1 from '../Assets/men/Coat_pant/1.png'
 import c2 from '../Assets/men/Coat_pant/2.png'
@@ -1987,10 +1986,10 @@ let shirt=[
         size:"M , L , XL",
     },
     {
-        id:30,
+        id:28,
         brand:"Mufti",
         name:"Men Slim Fit Solid Shirt",
-        image:srt30,
+        image:srt28,
         new_price:"₹1499",
         old_price:"₹1699",
         offer:"12% off",
@@ -2350,18 +2349,6 @@ let allShirt=[
         review:1256, 
         size:"M , L , XL",
     },
-    {
-        id:30,
-        brand:"Mufti",
-        name:"Men Slim Fit Solid Shirt",
-        image:srt30,
-        new_price:"₹1499",
-        old_price:"₹1699",
-        offer:"12% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"M , L , XL",
-    },
 
 ]
 export {allShirt}
@@ -2404,10 +2391,10 @@ let t_shirt=[
         size:"M , L , XL",
     },
          {
-        id:30,
+        id:28,
         brand:"Mufti",
         name:"Men Slim Fit Solid Shirt",
-        image:tsm30,
+        image:tsm28,
         new_price:"₹1499",
         old_price:"₹1699",
         offer:"12% off",
@@ -2779,18 +2766,6 @@ let allT_shirt=[
         review:1256, 
         size:"M , L , XL",
     },
-    {
-        id:30,
-        brand:"Mufti",
-        name:"Men Slim Fit Solid Shirt",
-        image:tsm30,
-        new_price:"₹1499",
-        old_price:"₹1699",
-        offer:"12% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"M , L , XL",
-    }
 ]
 export {allT_shirt}
 // Coat-Pant
