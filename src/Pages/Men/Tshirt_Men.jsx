@@ -1,11 +1,11 @@
 
-import { allT_shirt } from "../../Constant/allMen";
+import { allT_Shirt } from "../../Constant/allData";
 
 function Tshirt_Men() {
   return (
     <>
       <div className="flex justify-center gap-3 flex-wrap overflow-x-scroll webkit w-full my-4 px-4 sm:px-14 md:px-16">
-        {allT_shirt.map((val, i) => (
+        {allT_Shirt.map((val, i) => (
           <div
             className="flex relative flex-col py-2 hover:rounded hover:shadow-xl hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] items-center gap-1 my-2 w-32 sm:w-44 md:w-52"
             key={i}

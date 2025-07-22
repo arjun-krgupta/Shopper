@@ -1,6 +1,6 @@
 
 import laptop_slider from "../../Assets/Slider/laptop slider.jpg";
-import { allAsus } from "../../Constant/allLaptop";
+import { allAsus } from "../../Constant/allData";
 
 function Asus() {
   return (

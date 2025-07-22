@@ -1,5 +1,5 @@
 
-import { allPant } from "../../Constant/allMen";
+import { allPant } from "../../Constant/allData";
 
 function Pant() {
   return (

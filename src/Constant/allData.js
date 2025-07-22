@@ -594,7 +594,7 @@ let men = [
     alt: "Shirt",
   },
   {
-    image: coat,
+    image: c1,
     alt: "Coat Pant",
   },
   {

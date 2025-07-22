@@ -1,6 +1,6 @@
 
 import laptop_slider from "../../Assets/Slider/laptop slider.jpg";
-import { allAcer } from "../../Constant/allLaptop";
+import { allAcer } from "../../Constant/allData";
 
 function Acer() {
   return (

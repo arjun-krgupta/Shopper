@@ -1,6 +1,6 @@
 
 import laptop_slider from "../../Assets/Slider/laptop slider.jpg";
-import { allApple } from "../../Constant/allLaptop";
+import { allApple } from "../../Constant/allData";
 
 function Apple() {
   // const redirect = useNavigate();

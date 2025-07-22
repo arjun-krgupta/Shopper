@@ -1,5 +1,5 @@
 
-import { allLower } from "../../Constant/allMen";
+import { allLower } from "../../Constant/allData";
 
 function Lower() {
   return (

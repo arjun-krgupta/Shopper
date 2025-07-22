@@ -1,52 +1,41 @@
 
 import { useNavigate, Link } from "react-router-dom";
-
 import laptop_slider from "../Assets/Slider/laptop slider.jpg";
-import hp from "../Assets/Icon/hp.jpg";
-import asus from "../Assets/Icon/asus.jpg";
-import dell from "../Assets/Icon/dell.jpg";
-import lenovo from "../Assets/Icon/lenovo.jpg";
-import apple from "../Assets/Icon/apple.jpg";
-import acer from "../Assets/Icon/acer.jpg";
-
-import {
-  acer_product,
-  apple_product,
-  asus_product,
-  dell_product,
-  hp_product,
-  lenovo_product,
-} from "../Constant/allLaptop";
+import Hp from "../Assets/Icon/hp.jpg";
+import Asus from "../Assets/Icon/asus.jpg";
+import Dell from "../Assets/Icon/dell.jpg";
+import Lenovo from "../Assets/Icon/lenovo.jpg";
+import Apple from "../Assets/Icon/apple.jpg";
+import Acer from "../Assets/Icon/acer.jpg";
+import {hp,dell,asus,acer,apple,lenovo} from '../Constant/allData'
+import PropTypes from 'prop-types'; // ✅ Import at top
 
 // Brand data for brand icons
 const brandData = [
-  { name: "hp", img: hp },
-  { name: "asus", img: asus },
-  { name: "dell", img: dell },
-  { name: "lenovo", img: lenovo },
-  { name: "apple", img: apple },
-  { name: "acer", img: acer },
+  { name: "hp", img: Hp },
+  { name: "asus", img: Asus },
+  { name: "dell", img: Dell },
+  { name: "lenovo", img: Lenovo },
+  { name: "apple", img: Apple },
+  { name: "acer", img: Acer },
 ];
 
 // Brand product data
 const brands = [
-  { name: "Hp", path: "/hp", data: hp_product },
-  { name: "Dell", path: "/dell", data: dell_product },
-  { name: "Lenovo", path: "/lenovo", data: lenovo_product },
-  { name: "Asus", path: "/asus", data: asus_product },
-  { name: "Acer", path: "/acer", data: acer_product },
-  { name: "Apple", path: "/apple", data: apple_product },
+  { name: "Hp", path: "/hp", data: hp },
+  { name: "Dell", path: "/dell", data: dell },
+  { name: "Lenovo", path: "/lenovo", data: lenovo },
+  { name: "Asus", path: "/asus", data: asus },
+  { name: "Acer", path: "/acer", data: acer },
+  { name: "Apple", path: "/apple", data: apple },
 ];
 
-import PropTypes from 'prop-types'; // ✅ Import at top
-
 // Reusable slider component
-const ProductSlider = ({ title, path, products, onRedirect }) => (
+const ProductSlider = ({ title, path, products, }) => (
   <>
     <div className="flex justify-between items-center px-3">
       <h4
         className="font-bold text-sm md:text-xl my-1 cursor-pointer hover:underline"
-        onClick={() => onRedirect(path)}
       >
         {title} Laptops
       </h4>

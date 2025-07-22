@@ -7,7 +7,7 @@ import pant_icon from "../Assets/Icon/pant.jpeg";
 import shirt_icon from "../Assets/Icon/shirt.jpg";
 import tshirt_icon from "../Assets/Icon/t_Shirt.jpeg";
 import coat_icon from "../Assets/Icon/Coat-pant.jpeg";
-import { hoodie, jeans, lower, pant, shirt, t_shirt } from "../Constant/allMen";
+import { coat,hoodie,jeans,shirt,pant,t_shirt ,lower} from "../Constant/allData";
 
 const clothData = [
   { name: "hoodie", img: hoodie_icon, alt: "Hoodie" },
@@ -52,9 +52,6 @@ function Men() {
         <div className="flex justify-between items-center px-3 ">
           <h4
             className="font-bold text-sm md:text-xl my-1 cursor-pointer hover:underline"
-            onClick={() => {
-              redirect("/hoodie");
-            }}
           >
             Hoodie
           </h4>
@@ -97,9 +94,6 @@ function Men() {
         <div className="flex justify-between items-center px-3 ">
           <h4
             className="font-bold text-sm md:text-xl my-1 cursor-pointer hover:underline"
-            onClick={() => {
-              redirect("/jeans");
-            }}
           >
             Jeans
           </h4>
@@ -142,9 +136,6 @@ function Men() {
         <div className="flex justify-between items-center px-3 ">
           <h4
             className="font-bold text-sm md:text-xl my-1 cursor-pointer hover:underline"
-            onClick={() => {
-              redirect("/shirt");
-            }}
           >
             Shirt
           </h4>
@@ -187,9 +178,6 @@ function Men() {
         <div className="flex justify-between items-center px-3 ">
           <h4
             className="font-bold text-sm md:text-xl my-1 cursor-pointer hover:underline"
-            onClick={() => {
-              redirect("/lower");
-            }}
           >
             Track Pants
           </h4>
@@ -232,9 +220,6 @@ function Men() {
         <div className="flex justify-between items-center px-3 ">
           <h4
             className="font-bold text-sm md:text-xl my-1 cursor-pointer hover:underline"
-            onClick={() => {
-              redirect("/pant");
-            }}
           >
             Formal/Casual Pants
           </h4>
@@ -274,12 +259,51 @@ function Men() {
           ))}
         </div>
 
+           <div className="flex justify-between items-center px-3 ">
+          <h4
+            className="font-bold text-sm md:text-xl my-1 cursor-pointer hover:underline"
+          >
+            Coat Pants
+          </h4>
+          <Link
+            to="/coat"
+            className="text-sm md:text-base hover:underline hover:text-blue-500"
+          >
+            View all
+          </Link>
+        </div>
+        {/* Pant */}
+        <hr className="w-full" />
+        <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-3 py-2">
+          {coat.map((val, i) => (
+            <div
+              className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48  hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2"
+              key={i}
+            >
+              <img
+                src={val.image}
+                alt=""
+                className="max-w-full h-auto rounded"
+              />
+              <div className="flex flex-col items-center">
+                <div className="text-sm text-gray-400">{val.brand}</div>
+                <div className="text-base font-semibold cursor-pointer text-center">
+                  {val.name}
+                </div>
+              </div>
+              <div className="flex gap-5">
+                <div className="text-sm font-bold">{val.new_price}</div>
+                <div className="text-sm line-through text-gray-600">
+                  {val.old_price}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
         <div className="flex justify-between items-center px-3 ">
           <h4
             className="font-bold text-sm md:text-xl my-1 cursor-pointer hover:underline"
-            onClick={() => {
-              redirect("/tshirt_men");
-            }}
           >
             T-Shirt
           </h4>

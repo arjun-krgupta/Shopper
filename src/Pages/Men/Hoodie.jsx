@@ -1,5 +1,5 @@
 
-import { allHoodie } from "../../Constant/allMen";
+import { allHoodie } from "../../Constant/allData";
 
 function Hoodie() {
 

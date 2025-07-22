@@ -1,5 +1,5 @@
 
-import { allJeans } from "../../Constant/allMen";
+import { allJeans } from "../../Constant/allData";
 
 function Jeans() {
   return (

@@ -1,7 +1,7 @@
 
 import sl1 from "../../Assets/Slider/1.jpg";
 import sl2 from "../../Assets/Slider/2.jpg";
-import { allOppo } from "../../Constant/allMobile";
+import { allOppo } from "../../Constant/allData";
 
 function Oppo() {
   return (

@@ -1,7 +1,7 @@
 
 import sl1 from "../../Assets/Slider/1.jpg";
 import sl2 from "../../Assets/Slider/2.jpg";
-import { allRealme } from "../../Constant/allMobile";
+import { allRealme } from "../../Constant/allData";
 
 function Realme() {
   return (

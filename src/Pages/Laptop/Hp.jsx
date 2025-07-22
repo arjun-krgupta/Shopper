@@ -1,6 +1,6 @@
 
 import laptop_slider from "../../Assets/Slider/laptop slider.jpg";
-import { allHp } from "../../Constant/allLaptop";
+import { allHp } from "../../Constant/allData";
 
 function Hp() {
 

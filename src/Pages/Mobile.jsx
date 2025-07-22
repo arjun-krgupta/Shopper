@@ -1,13 +1,5 @@
 
 import { Link, useNavigate } from "react-router-dom";
-import {
-  realme,
-  iphone,
-  oppo,
-  poco,
-  samsung,
-  vivo,
-} from "../Constant/allMobile";
 import sl1 from "../Assets/Slider/1.jpg";
 import sl2 from "../Assets/Slider/2.jpg";
 import sl3 from "../Assets/Slider/3.jpg";
@@ -21,6 +13,7 @@ import m3 from "../Assets/Icon/oppo.png";
 import m4 from "../Assets/Icon/poco.png";
 import m5 from "../Assets/Icon/samsung.jpg";
 import m6 from "../Assets/Icon/vivo.png";
+import { realme,iphone,vivo,samsung,oppo,poco } from "../Constant/allData";
 
 const mobileData = [
   { name: "realme", img: m1 },
@@ -117,9 +110,6 @@ function Mobile() {
         <div className="flex items-center justify-between px-3">
           <h4
             className="font-bold text-sm md:text-xl my-1  cursor-pointer hover:underline"
-            onClick={() => {
-              redirect("/realme");
-            }}
           >
             Realme Smartphones
           </h4>
@@ -156,9 +146,6 @@ function Mobile() {
         <div className="flex justify-between items-center px-3">
           <h4
             className="font-bold text-sm md:text-xl my-[6px] cursor-pointer hover:underline"
-            onClick={() => {
-              redirect("/vivo");
-            }}
           >
             Vivo Smartphones
           </h4>
@@ -193,9 +180,6 @@ function Mobile() {
         <div className="flex justify-between items-center px-4 sm:px-7 md:px-8 lg:px-9 xl:px-40">
           <h4
             className="font-bold text-sm md:text-xl my-[6px] cursor-pointer hover:underline"
-            onClick={() => {
-              redirect("/samsung");
-            }}
           >
             Samsung Smartphones
           </h4>
@@ -230,9 +214,6 @@ function Mobile() {
         <div className="flex justify-between items-center px-4 sm:px-7 md:px-8 lg:px-9 xl:px-40">
           <h4
             className="font-bold text-sm md:text-xl my-[6px] cursor-pointer hover:underline"
-            onClick={() => {
-              redirect("/poco");
-            }}
           >
             Poco Smartphones
           </h4>
@@ -267,9 +248,6 @@ function Mobile() {
         <div className="flex justify-between items-center px-4 sm:px-7 md:px-8 lg:px-9 xl:px-40">
           <h4
             className="font-bold text-sm md:text-xl my-[6px] cursor-pointer hover:underline"
-            onClick={() => {
-              redirect("/oppo");
-            }}
           >
             Oppo Smartphones
           </h4>
@@ -304,9 +282,6 @@ function Mobile() {
         <div className="flex justify-between items-center px-4 sm:px-7 md:px-8 lg:px-9 xl:px-40">
           <h4
             className="font-bold text-sm md:text-xl my-[6px] cursor-pointer hover:underline"
-            onClick={() => {
-              redirect("/iphone");
-            }}
           >
             Apple Smartphones
           </h4>

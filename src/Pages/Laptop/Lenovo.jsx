@@ -1,6 +1,6 @@
 
 import laptop_slider from "../../Assets/Slider/laptop slider.jpg";
-import { allLenovo } from "../../Constant/allLaptop";
+import { allLenovo } from "../../Constant/allData";
 
 function Lenovo() {
 

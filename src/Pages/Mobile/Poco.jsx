@@ -1,7 +1,7 @@
 
 import sl1 from "../../Assets/Slider/1.jpg";
 import sl2 from "../../Assets/Slider/2.jpg";
-import { allPoco } from "../../Constant/allMobile";
+import { allPoco } from "../../Constant/allData";
 
 function Poco() {
   return (

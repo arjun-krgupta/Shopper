@@ -1,12 +1,12 @@
 
-import { allSalwar_Suit } from "../../Constant/allWomen";
+import { allSalwar_suit } from "../../Constant/allData";
 
 function Salwar_suit() {
 
   return (
     <>
       <div className="flex justify-center gap-3 flex-wrap overflow-x-scroll webkit w-full mt-4 mb-2 px-4 sm:px-14 md:px-16">
-        {allSalwar_Suit.map((val, i) => (
+        {allSalwar_suit.map((val, i) => (
           <div
             className="flex relative flex-col py-2 hover:rounded hover:shadow-xl hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03]  items-center gap-1 my-2 w-32 sm:w-44 md:w-52"
             key={i}

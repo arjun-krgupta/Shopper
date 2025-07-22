@@ -1,6 +1,6 @@
 
 import laptop_slider from "../../Assets/Slider/laptop slider.jpg";
-import { allDell } from "../../Constant/allLaptop";
+import { allDell } from "../../Constant/allData";
 
 function Dell() {
   // const redirect = useNavigate();

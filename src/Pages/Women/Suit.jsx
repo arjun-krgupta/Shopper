@@ -1,6 +1,5 @@
 
-
-import { allSuit } from '../../Constant/allWomen';
+import { allSuit } from '../../Constant/allData';
 
 function Suit() {
  

@@ -1,11 +1,11 @@
 
-import { allOne_piece } from "../../Constant/allWomen";
+import { allOne_pis } from "../../Constant/allData";
 
 function One_Piece() {
   return (
     <>
       <div className="flex justify-center gap-3 flex-wrap overflow-x-scroll webkit w-full mt-4 mb-2 px-4 sm:px-14 md:px-16">
-        {allOne_piece.map((val, i) => (
+        {allOne_pis.map((val, i) => (
           <div
             className="flex relative flex-col py-2 hover:rounded hover:shadow-xl hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] items-center gap-1 my-2 w-32 sm:w-44 md:w-52"
             key={i}

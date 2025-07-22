@@ -1,5 +1,5 @@
 
-import { allShirt } from "../../Constant/allMen";
+import { allShirt } from "../../Constant/allData";
 
 
 function Shirt() {

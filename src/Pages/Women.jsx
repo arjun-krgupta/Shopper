@@ -1,20 +1,13 @@
 
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import {
-  lahenga,
-  gown,
-  one_piece,
-  suit,
-  suit_salwar,
-  tshirt,
-} from "../Constant/allWomen";
 import lehenga_icon from "../Assets/Icon/Lehenga.jpeg";
 import gown_icon from "../Assets/Icon/gown.jpeg";
 import onePiece_icon from "../Assets/Icon/one-piece.jpeg";
 import suitSalwar_icon from "../Assets/Icon/suit-salwar.jpeg";
 import suit_icon from "../Assets/Icon/suit.jpeg";
 import tShirt_icon from "../Assets/Icon/t-shirt.jpeg";
+import { gown, lehenga, one_pis, salwar_suit, suit, tshirt_women } from "../Constant/allData";
 
 const clothData = [
   { name: "lehenga", img: lehenga_icon, alt: "Lahenga" },
@@ -60,9 +53,6 @@ function Women() {
         <div className="flex justify-between items-center px-3">
           <h4
             className="font-bold text-sm md:text-xl my-1 cursor-pointer hover:underline"
-            onClick={() => {
-              redirect("/lehenga");
-            }}
           >
             Lehenga
           </h4>
@@ -76,7 +66,7 @@ function Women() {
         {/* Lehenga*/}
         <hr className="w-full" />
         <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-3 py-2">
-          {lahenga.map((val, i) => (
+          {lehenga.map((val, i) => (
             <div
               className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48  hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2 "
               key={i}
@@ -105,9 +95,6 @@ function Women() {
         <div className="flex justify-between items-center px-3">
           <h4
             className="font-bold text-sm md:text-xl my-1 cursor-pointer hover:underline"
-            onClick={() => {
-              redirect("/gown");
-            }}
           >
             Gown
           </h4>
@@ -150,9 +137,6 @@ function Women() {
         <div className="flex justify-between items-center px-3">
           <h4
             className="font-bold text-sm md:text-xl my-1 cursor-pointer hover:underline"
-            onClick={() => {
-              redirect("/one-piece");
-            }}
           >
             One Piece
           </h4>
@@ -166,7 +150,7 @@ function Women() {
         {/* One Piece */}
         <hr className="w-full" />
         <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-3 py-2">
-          {one_piece.map((val, i) => (
+          {one_pis.map((val, i) => (
             <div
               className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48  hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2"
               key={i}
@@ -195,9 +179,6 @@ function Women() {
         <div className="flex justify-between items-center px-3">
           <h4
             className="font-bold text-sm md:text-xl my-1 cursor-pointer hover:underline"
-            onClick={() => {
-              redirect("/suit-salwar");
-            }}
           >
             Salwar Suit
           </h4>
@@ -211,7 +192,7 @@ function Women() {
         {/* Salwar Suit */}
         <hr className="w-full" />
         <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-3 py-2">
-          {suit_salwar.map((val, i) => (
+          {salwar_suit.map((val, i) => (
             <div
               className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48  hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2"
               key={i}
@@ -240,9 +221,6 @@ function Women() {
         <div className="flex justify-between items-center px-3">
           <h4
             className="font-bold text-sm md:text-xl my-1 cursor-pointer hover:underline"
-            onClick={() => {
-              redirect("/suit");
-            }}
           >
             Suit
           </h4>
@@ -285,9 +263,6 @@ function Women() {
         <div className="flex justify-between items-center px-3">
           <h4
             className="font-bold text-sm md:text-xl my-1 cursor-pointer hover:underline"
-            onClick={() => {
-              redirect("/tshirt_women");
-            }}
           >
             T-Shirt
           </h4>
@@ -301,7 +276,7 @@ function Women() {
         {/* T-Shirt */}
         <hr className="w-full" />
         <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-3 py-2">
-          {tshirt.map((val, i) => (
+          {tshirt_women.map((val, i) => (
             <div
               className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48  hover:rounded hover:shadow-xl  hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2"
               key={i}
