@@ -12,7 +12,7 @@ function Home() {
   return (
     <>
       {/* front-view */}
-      <div className="flex justify-center items-center gap-4 mt-3 lg:mt-4 px-4 sm:px-6" >
+      <div className="flex justify-center items-center gap-5 mt-3 lg:mt-4 px-4 sm:px-6" >
         <div className="flex flex-col items-center w-28 hover:text-blue-600 hover:scale-[1.01] hover:transition-[0.3s] cursor-pointer  " onClick={()=>{redirect('/Mobiles')}}>
             <div className="w-12 sm:w-15 md:w-16 lg:w-20 ">
             <img src={mobile} alt="" className="max-w-full h-auto"/>

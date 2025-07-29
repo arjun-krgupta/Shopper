@@ -5,7 +5,7 @@ import { allShirt } from "../../Constant/allData";
 function Shirt() {
   return (
     <>
-      <div className="flex justify-center gap-3 flex-wrap overflow-x-scroll webkit w-full my-4 px-3 sm:px-24 md:px-40 lg:px-48">
+      <div className="flex justify-center gap-2 flex-wrap overflow-x-scroll webkit w-full my-4 px-2 sm:px-28 md:px-40 lg:px-48">
         {allShirt.map((val, i) => (
           <div
             className="flex relative flex-col py-2 hover:rounded hover:shadow-xl hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] items-center gap-1 my-2 px-3 w-[170px] sm:w-44 md:w-56 rounded-md shadow-md"

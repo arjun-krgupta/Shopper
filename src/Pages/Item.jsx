@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import { mobile, laptop, men, women } from "../Constant/allData";
 
-// Category path mapping
+// All category routing
 const allCategory = [
   { name: "Realme", path: "/realme" },
   { name: "Vivo", path: "/vivo" },
@@ -33,53 +33,58 @@ function Item() {
   const redirect = useNavigate();
 
   const renderCategory = (categoryItems, categoryName) => (
-    <div className="px-4 sm:px-8 md:px-10 lg:px-16 xl:px-24 mb-4 mt-3">
-      <div className="border rounded-md shadow-sm p-4">
-        {/* Header */}
-        <div className="flex justify-between items-center mb-3 border-b pb-2">
-          <h1 className="text-base sm:text-lg md:text-xl font-semibold">
-            {categoryName}
-          </h1>
-          <Link
-            to={`/${categoryName}`}
-            className="text-sm text-blue-600 hover:text-blue-800 hover:underline"
-          >
-            View all
-          </Link>
-        </div>
+    <div className="w-full bg-white mt-3">
+      {/* Outer container with padding applied */}
+      <div className="mx-3 sm:px-6 md:px-8 lg:px-12">
+        <div className="border rounded-md shadow-sm p-4 bg-white">
+          {/* Header */}
+          <div className="flex justify-between items-center mb-3 border-b pb-2">
+            <h1 className="text-base sm:text-lg md:text-xl font-semibold text-gray-800">
+              {categoryName}
+            </h1>
+            <Link
+              to={`/${categoryName}`}
+              className="text-sm text-blue-600 hover:text-blue-800 hover:underline"
+            >
+              View all
+            </Link>
+          </div>
 
-        {/* Scrollable Item List */}
-        <div className="flex gap-4 overflow-x-auto webkit py-2">
-          {categoryItems.map((val, ind) => {
-            const match = allCategory.find(
-              (category) =>
-                category.name.toLowerCase() === val.alt.toLowerCase()
-            );
-
-            return (
-              <div
-                key={ind}
-                className="flex flex-col items-center gap-2 min-w-[140px] sm:min-w-[160px] md:min-w-[170px] cursor-pointer hover:scale-[1.05] transition-transform duration-200 p-2 bg-white rounded-md shadow-md"
-                onClick={() => match && redirect(match.path)}
-              >
-                <div className="w-full h-24 sm:h-28 md:h-32 flex items-center justify-center">
-                  <img
-                    src={val.image}
-                    alt={val.alt}
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <h2 className="text-xs sm:text-sm font-medium text-center">{val.alt}</h2>
-              </div>
-            );
-          })}
+          {/* Scrollable section */}
+          <div className="overflow-x-auto webkit">
+            <div className="flex gap-3 py-2">
+              {categoryItems.map((val, index) => {
+                const match = allCategory.find(
+                  (c) => c.name.toLowerCase() === val.alt.toLowerCase()
+                );
+                return (
+                  <div
+                    key={index}
+                    className="min-w-[140px] sm:min-w-[160px] md:min-w-[180px] flex flex-col items-center border rounded-lg shadow-md hover:scale-[1.05] transition duration-200 cursor-pointer p-2"
+                    onClick={() => match && redirect(match.path)}
+                  >
+                    <div className="w-full h-24 sm:h-28 md:h-32 flex items-center justify-center">
+                      <img
+                        src={val.image}
+                        alt={val.alt}
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                    <h2 className="text-xs sm:text-sm font-medium text-center mt-1 text-gray-700">
+                      {val.alt}
+                    </h2>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         </div>
       </div>
     </div>
   );
 
   return (
-    <div className="bg-white">
+    <div className="bg-gray-50 min-h-screen">
       {renderCategory(mobile, "Mobiles")}
       {renderCategory(laptop, "Laptops")}
       {renderCategory(men, "Men")}
@@ -87,5 +92,6 @@ function Item() {
     </div>
   );
 }
+
 
 export default Item;
