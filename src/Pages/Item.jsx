@@ -49,7 +49,7 @@ function Item() {
         </div>
 
         {/* Scrollable Item List */}
-        <div className="flex gap-4 overflow-x-hidden py-2">
+        <div className="flex gap-4 overflow-x-auto webkit py-2">
           {categoryItems.map((val, ind) => {
             const match = allCategory.find(
               (category) =>
