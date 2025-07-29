@@ -53,7 +53,7 @@ const ProductSlider = ({ title, path, products, }) => (
       {products.map((val, i) => (
         <div
           key={i}
-          className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 px-3 hover:rounded hover:shadow-xl hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2"
+          className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 px-3 hover:rounded hover:shadow-xl hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] p-2 rounded-md shadow-md"
         >
           <img
             src={val.image}
@@ -93,7 +93,7 @@ function Laptop() {
         {brandData.map((brand, index) => (
           <div
             key={index}
-            className="w-[50px] sm:w-16 md:w-18 lg:w-20 cursor-pointer sm:hover:scale-[1.05] sm:hover:transition"
+            className="w-[50px] sm:w-16 md:w-18 lg:w-24 cursor-pointer sm:hover:scale-[1.05] sm:hover:transition"
             onClick={() => redirect(`/${brand.name}`)}
           >
             <img

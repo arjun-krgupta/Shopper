@@ -8505,23 +8505,6 @@ let poco=[
     old_price: "₹21,999",
     offer: "22% off",
   },
-  {
-    id: 62,
-    image: pc7,
-    name: "POCO X6 Neo 5G (Martian Orange, 128 GB)",
-    rating: "4.3★",
-    review: "5,742 Reviews",
-    description: {
-      d1: "8 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
-      d2: "17.07 cm (6.72 inch) Full HD+ Display.",
-      d3: "108MP + 2MP | 16MP Front Camera.",
-      d4: "5000 mAh Battery.",
-      d5: "Snapdragon 4 Gen 2 Processor.",
-    },
-    new_price: "₹14,999",
-    old_price: "₹19,999",
-    offer: "25% off",
-  },
 ]
 export {poco}
 let allPoco=[
@@ -9499,6 +9482,7 @@ let hp=[
     old_price: "₹32,000",
     new_price: "₹47,000",
     offer: "32% off",
+    alt:"HP AMD Ryzen 3 Quad Core 5300U"
   },
   {
     id: 100,
@@ -9517,6 +9501,7 @@ let hp=[
     old_price: "₹39,000",
     new_price: "₹52,000",
     offer: "23% off",
+    alt:"HP AMD Ryzen 5 Hexa Core 5500U"
   },
   {
     id: 101,
@@ -9535,6 +9520,7 @@ let hp=[
     old_price: "₹26,780",
     new_price: "₹39,999",
     offer: "33% off",
+    alt:"HP 255 G9 AMD Ryzen 3 Dual Core R3 3250"
   },
   {
     id: 102,
@@ -9553,6 +9539,7 @@ let hp=[
     old_price: "₹32,850",
     new_price: "₹47,553",
     offer: "30% off",
+    alt:'HP 250 G9 Intel Core i3 12th Gen Intel Core i3 1215U'
   },
   {
     id: 103,
@@ -9571,6 +9558,7 @@ let hp=[
     old_price: "₹11,990",
     new_price: "₹34,553",
     offer: "65% off",
+    alt:"HP Chromebook (2024) MediaTek MT8183 "
   },
 ]
 export {hp}
@@ -9705,6 +9693,7 @@ let dell=[
     old_price: "₹38,000",
     new_price: "₹51,000",
     offer: "25% off",
+    alt:"DELL Inspiron 3520 Intel Core i3 12th Gen 1215U"
   },
   {
     id: 106,
@@ -9723,6 +9712,7 @@ let dell=[
     old_price: "₹38,000",
     new_price: "₹62,000",
     offer: "39% off",
+    alt:"DELL Intel Core i3 12th Gen 1215U"
   },
   {
     id: 107,
@@ -9741,6 +9731,7 @@ let dell=[
     old_price: "₹31,780",
     new_price: "₹53,999",
     offer: "41% off",
+    alt:"DELL 3540 Intel Core i3 12th Gen"
   },
   {
     id: 108,
@@ -9759,6 +9750,7 @@ let dell=[
     old_price: "₹47,850",
     new_price: "₹62,553",
     offer: "23% off",
+    alt:"DELL Inspiron 3520 Intel Core i5 12th Gen 1235U"
   },
   {
     id: 109,
@@ -9777,6 +9769,7 @@ let dell=[
     old_price: "₹81,990",
     new_price: "₹1,07,553",
     offer: "23% off",
+    alt:"DELL Intel Core i5 13th Gen 13450HX"
   },
 ]
 export {dell}
@@ -9911,6 +9904,7 @@ let apple=[
     old_price: "₹90,000",
     new_price: "₹99,000",
     offer: "9% off",
+    alt:"Apple 2022 MacBook AIR Apple M2"
   },
   {
     id: 130,
@@ -9929,6 +9923,7 @@ let apple=[
     old_price: "₹70,000",
     new_price: "₹90,000",
     offer: "22% off",
+    alt:"Apple 2020 Macbook Air Apple M1"
   },
   {
     id: 131,
@@ -9947,6 +9942,7 @@ let apple=[
     old_price: "₹1,12,780",
     new_price: "₹1,19,999",
     offer: "5% off",
+    alt:"Apple 2022 MacBook AIR Apple M2"
   },
   {
     id: 132,
@@ -9965,6 +9961,7 @@ let apple=[
     old_price: "₹1,26,850",
     new_price: "₹1,34,553",
     offer: "5% off",
+    alt:"Apple MacBook Air Apple M3"
   },
   {
     id: 133,
@@ -9983,6 +9980,7 @@ let apple=[
     old_price: "₹1,57,990",
     new_price: "₹1,69,553",
     offer: "7% off",
+    alt:"Apple 2023 MacBook Pro Apple M3"
   },
 ]
 export {apple}
@@ -10117,6 +10115,7 @@ let lenovo=[
     old_price: "₹28,000",
     new_price: "₹60,000",
     offer: "53% off",
+    alt:"Lenovo V15 AMD Ryzen 3 Quad Core 7320U"
   },
   {
     id: 112,
@@ -10135,6 +10134,7 @@ let lenovo=[
     old_price: "₹24,000",
     new_price: "₹40,000",
     offer: "43% off",
+    alt:"Lenovo V15 Intel Celeron Dual Core 4th Gen N4500"
   },
   {
     id: 113,
@@ -10153,6 +10153,7 @@ let lenovo=[
     old_price: "₹35,780",
     new_price: "₹67,999",
     offer: "46% off",
+    alt:"Lenovo IdeaPad Slim 1 AMD Ryzen 5 Quad Core 7520U"
   },
   {
     id: 114,
@@ -10171,6 +10172,7 @@ let lenovo=[
     old_price: "₹42,850",
     new_price: "₹86,553",
     offer: "50% off",
+    alt:"Lenovo AMD Ryzen 5 Hexa Core 7530U"
   },
   {
     id: 115,
@@ -10189,6 +10191,7 @@ let lenovo=[
     old_price: "₹59,990",
     new_price: "₹93,553",
     offer: "36% off",
+    alt:"Lenovo IdeaPad Slim 5 AMD Ryzen 7 Octa Core 7730U"
   },
 ]
 export {lenovo}
@@ -10323,6 +10326,7 @@ let asus=[
     old_price: "₹21,000",
     new_price: "₹33,000",
     offer: "36% off",
+    alt:"ASUS Chromebook Intel Celeron Dual Core N4500"
   },
   {
     id: 118,
@@ -10341,6 +10345,7 @@ let asus=[
     old_price: "₹20,000",
     new_price: "₹34,000",
     offer: "41% off",
+    alt:"ASUS Vivobook Go 15 Intel Celeron Dual Core N4020"
   },
   {
     id: 119,
@@ -10359,6 +10364,7 @@ let asus=[
     old_price: "₹47,780",
     new_price: "₹74,999",
     offer: "36% off",
+    alt:"ASUS Vivobook 16 (2023) AMD Ryzen 5 Hexa Core 7530U"
   },
   {
     id: 120,
@@ -10377,6 +10383,7 @@ let asus=[
     old_price: "₹59,850",
     new_price: "₹94,553",
     offer: "36% off",
+    alt:"ASUS Vivobook Pro 15 OLED For Creator AMD Ryzen 7 Octa Core 5800HS"
   },
   {
     id: 121,
@@ -10395,6 +10402,7 @@ let asus=[
     old_price: "₹36,990",
     new_price: "₹50,553",
     offer: "27% off",
+    alt:"ASUS ExpertBook B15 Intel Core i3 12th Gen 1215U"
   },
 ]
 export {asus}
@@ -10529,6 +10537,7 @@ let acer=[
     old_price: "₹21,000",
     new_price: "₹33,000",
     offer: "36% off",
+    alt:"Acer One (2024) Intel Core i3 11th Gen 1115G4"
   },
   {
     id: 124,
@@ -10547,6 +10556,7 @@ let acer=[
     old_price: "₹20,000",
     new_price: "₹34,000",
     offer: "41% off",
+    alt:"Acer Swift Go 14 EVO OLED Intel Core i5 13th Gen 13500H"
   },
   {
     id: 125,
@@ -10565,6 +10575,7 @@ let acer=[
     old_price: "₹47,780",
     new_price: "₹74,999",
     offer: "36% off",
+    alt:"Acer One 14 AMD Ryzen 3 Dual Core 3250U"
   },
   {
     id: 126,
@@ -10583,6 +10594,7 @@ let acer=[
     old_price: "₹59,850",
     new_price: "₹94,553",
     offer: "36% off",
+    alt:'Acer Chromebook (2024) Intel Celeron Dual Core N4500'
   },
   {
     id: 127,
@@ -10601,6 +10613,7 @@ let acer=[
     old_price: "₹36,990",
     new_price: "₹50,553",
     offer: "27% off",
+    alt:"Acer Aspire 3 Backlit Intel Core i5 12th Gen 1235U"
   },
 ]
 export {acer}
