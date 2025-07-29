@@ -530,7 +530,7 @@ let mobile = [
     alt: "Vivo",
   },
   {
-    image: p1,
+    image: pc1,
     alt: "Poco",
   },
   {
