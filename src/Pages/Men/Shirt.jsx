@@ -8,7 +8,7 @@ function Shirt() {
       <div className="flex justify-center gap-3 flex-wrap overflow-x-scroll webkit w-full my-4 px-3 sm:px-24 md:px-40 lg:px-48">
         {allShirt.map((val, i) => (
           <div
-            className="flex relative flex-col py-2 hover:rounded hover:shadow-xl hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] items-center gap-1 my-2 w-40 sm:w-44 md:w-52 rounded-md shadow-md"
+            className="flex relative flex-col py-2 hover:rounded hover:shadow-xl hover:bg-transparent hover:transition-[0.2s] hover:scale-[1.03] items-center gap-1 my-2 px-3 w-[170px] sm:w-44 md:w-56 rounded-md shadow-md"
             key={i}
           >
             <div className="text-xs sm:text-sm text-white absolute right-0 top-0 bg-blue-500 p-2 rounded-full ">
