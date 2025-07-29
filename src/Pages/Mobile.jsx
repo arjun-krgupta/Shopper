@@ -109,7 +109,7 @@ function Mobile() {
       <div className="md:px-10 lg:px-16 xl:px-28 mt-3 mb-5">
         <div className="flex items-center justify-between px-3">
           <h4
-            className="font-bold text-sm md:text-xl my-1  cursor-pointer hover:underline"
+            className="font-bold text-sm md:text-xl my-1"
           >
             Realme Smartphones
           </h4>
@@ -145,7 +145,7 @@ function Mobile() {
         {/* Vivo */}
         <div className="flex justify-between items-center px-3">
           <h4
-            className="font-bold text-sm md:text-xl my-[6px] cursor-pointer hover:underline"
+            className="font-bold text-sm md:text-xl my-1"
           >
             Vivo Smartphones
           </h4>
@@ -179,7 +179,7 @@ function Mobile() {
         {/* Samsung */}
         <div className="flex justify-between items-center px-4 sm:px-7 md:px-8 lg:px-9 xl:px-40">
           <h4
-            className="font-bold text-sm md:text-xl my-[6px] cursor-pointer hover:underline"
+            className="font-bold text-sm md:text-xl my-1"
           >
             Samsung Smartphones
           </h4>
@@ -213,7 +213,7 @@ function Mobile() {
         {/* Poco */}
         <div className="flex justify-between items-center px-4 sm:px-7 md:px-8 lg:px-9 xl:px-40">
           <h4
-            className="font-bold text-sm md:text-xl my-[6px] cursor-pointer hover:underline"
+            className="font-bold text-sm md:text-xl my-1"
           >
             Poco Smartphones
           </h4>
@@ -247,7 +247,7 @@ function Mobile() {
         {/* Oppo */}
         <div className="flex justify-between items-center px-4 sm:px-7 md:px-8 lg:px-9 xl:px-40">
           <h4
-            className="font-bold text-sm md:text-xl my-[6px] cursor-pointer hover:underline"
+            className="font-bold text-sm md:text-xl my-1"
           >
             Oppo Smartphones
           </h4>
@@ -281,7 +281,7 @@ function Mobile() {
         {/* Iphone */}
         <div className="flex justify-between items-center px-4 sm:px-7 md:px-8 lg:px-9 xl:px-40">
           <h4
-            className="font-bold text-sm md:text-xl my-[6px] cursor-pointer hover:underline"
+            className="font-bold text-sm md:text-xl my-1"
           >
             Apple Smartphones
           </h4>

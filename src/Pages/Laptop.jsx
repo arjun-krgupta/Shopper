@@ -35,7 +35,7 @@ const ProductSlider = ({ title, path, products, }) => (
   <>
     <div className="flex justify-between items-center px-3">
       <h4
-        className="font-bold text-sm md:text-xl my-1 cursor-pointer hover:underline"
+        className="font-bold text-sm md:text-xl my-1"
       >
         {title} Laptops
       </h4>
