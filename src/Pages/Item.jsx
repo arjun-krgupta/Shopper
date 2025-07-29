@@ -33,7 +33,7 @@ function Item() {
   const redirect = useNavigate();
 
   const renderCategory = (categoryItems, categoryName) => (
-    <div className="px-4 sm:px-8 md:px-10 lg:px-16 xl:px-24 mb-8">
+    <div className="px-4 sm:px-8 md:px-10 lg:px-16 xl:px-24 mb-4 mt-3">
       <div className="border rounded-md shadow-sm p-4">
         {/* Header */}
         <div className="flex justify-between items-center mb-3 border-b pb-2">

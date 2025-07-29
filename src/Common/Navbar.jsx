@@ -6,8 +6,8 @@ function Navbar() {
 const redirect=useNavigate()
   return (
     <>
-  <nav className=" flex flex-col gap-[6px] h-[80px] py-1 sm:h-[65px] w-full bg-[#0d6efd] px-2">
-      <div className="flex justify-between sm:justify-around items-center mt-1 sm:mt-0 px-4 sm:px-10">
+  <nav className=" flex flex-col gap-[6px] h-[80px] py-1 sm:h-[65px] w-full bg-[#0d6efd]">
+      <div className="flex justify-between sm:justify-around items-center mt-1 sm:mt-0 px-4 sm:px-6">
            <Link to="/" className="flex items-center text-white">
             <div className="w-8 sm:w-14">
               <img src={logo} alt="" className="max-w-full h-auto" />
@@ -32,9 +32,9 @@ const redirect=useNavigate()
           </div>
       </div>
 
-       {/* Search box */}
-       <div className="flex justify-between bg-white w-[85%] mx-auto h-7 rounded px-2 sm:hidden">
-            <input type="text" placeholder="Search..." className="w-full border-0 outline-none ps-2 rounded text-sm"/>
+       {/* mobile Search box */}
+       <div className="flex justify-between bg-white w-[90%] mx-auto h-7 rounded px-2 sm:hidden">
+            <input type="text" placeholder="Search..." className="w-full border-0 outline-none ps-2 rounded text-xs"/>
             <i className="fa-solid fa-magnifying-glass cursor-pointer  text-[#0d6efd] text-xl lg:text-xl"></i>
           </div>
  </nav>

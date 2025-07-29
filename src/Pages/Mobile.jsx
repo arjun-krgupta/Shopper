@@ -33,7 +33,7 @@ function Mobile() {
         {mobileData.map((brand, index) => (
           <div
             key={index}
-            className="w-11 sm:w-16 md:w-20 cursor-pointer sm:me-2 lg:me-7"
+            className="w-10 sm:w-12 md:w-14 lg:w-16 cursor-pointer"
             onClick={() => {
               redirect(`/${brand.name}`);
             }}
